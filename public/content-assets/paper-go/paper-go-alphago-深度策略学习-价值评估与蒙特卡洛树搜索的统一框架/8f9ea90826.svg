@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 880 300" role="img" aria-label="AlphaGo关键实验和比赛结果时间线">
+              <line x1="80" y1="150" x2="800" y2="150" stroke="#66798b" stroke-width="2"></line>
+              <g font-family="Microsoft YaHei">
+                <circle cx="160" cy="150" r="9" fill="#315f87"></circle><line x1="160" y1="150" x2="160" y2="95" stroke="#8aa0b4"></line>
+                <text x="160" y="72" text-anchor="middle" font-size="14" fill="#253d55">2015.10</text>
+                <text x="160" y="92" text-anchor="middle" font-size="12.5" fill="#526271">Fan Hui：5–0</text>
+
+                <circle cx="380" cy="150" r="9" fill="#315f87"></circle><line x1="380" y1="150" x2="380" y2="205" stroke="#8aa0b4"></line>
+                <text x="380" y="230" text-anchor="middle" font-size="14" fill="#253d55">2016.01</text>
+                <text x="380" y="250" text-anchor="middle" font-size="12.5" fill="#526271">Nature 论文发表</text>
+
+                <circle cx="600" cy="150" r="9" fill="#315f87"></circle><line x1="600" y1="150" x2="600" y2="95" stroke="#8aa0b4"></line>
+                <text x="600" y="72" text-anchor="middle" font-size="14" fill="#253d55">2016.03</text>
+                <text x="600" y="92" text-anchor="middle" font-size="12.5" fill="#526271">Lee Sedol：4–1</text>
+
+                <circle cx="760" cy="150" r="9" fill="#4f826e"></circle><line x1="760" y1="150" x2="760" y2="205" stroke="#8aa0b4"></line>
+                <text x="760" y="230" text-anchor="middle" font-size="14" fill="#315c4c">2017.10</text>
+                <text x="760" y="250" text-anchor="middle" font-size="12.5" fill="#526271">AlphaGo Zero</text>
+              </g>
+            </svg>

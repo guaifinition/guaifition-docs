@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="620" viewBox="0 0 1350 620">
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}</style>
+<text x="675" y="38" text-anchor="middle" font-size="25" font-weight="700">Reasoning effort is an ordinal control, not a fixed token quota</text>
+<rect x="50" y="425" width="180" height="105" rx="10" fill="#f7f7f7" stroke="#333" stroke-width="2"/>
+<text x="140" y="457" text-anchor="middle" font-size="18" font-weight="700">none</text>
+<text x="140" y="483" text-anchor="middle" font-size="12">Direct / latency</text>
+<text x="140" y="501" text-anchor="middle" font-size="12">baseline</text>
+<rect x="265" y="370" width="180" height="160" rx="10" fill="#f4f4f4" stroke="#333" stroke-width="2"/>
+<text x="355" y="402" text-anchor="middle" font-size="18" font-weight="700">low</text>
+<text x="355" y="428" text-anchor="middle" font-size="12">Modest planning and</text>
+<text x="355" y="446" text-anchor="middle" font-size="12">tool use</text>
+<rect x="480" y="315" width="180" height="215" rx="10" fill="#eeeeee" stroke="#333" stroke-width="2"/>
+<text x="570" y="347" text-anchor="middle" font-size="18" font-weight="700">medium</text>
+<text x="570" y="373" text-anchor="middle" font-size="12">Balanced default</text>
+<rect x="695" y="260" width="180" height="270" rx="10" fill="#e7e7e7" stroke="#333" stroke-width="2"/>
+<text x="785" y="292" text-anchor="middle" font-size="18" font-weight="700">high</text>
+<text x="785" y="318" text-anchor="middle" font-size="12">Deeper planning and</text>
+<text x="785" y="336" text-anchor="middle" font-size="12">verification</text>
+<rect x="910" y="205" width="180" height="325" rx="10" fill="#dfdfdf" stroke="#333" stroke-width="2"/>
+<text x="1000" y="237" text-anchor="middle" font-size="18" font-weight="700">xhigh</text>
+<text x="1000" y="263" text-anchor="middle" font-size="12">Long-run research and</text>
+<text x="1000" y="281" text-anchor="middle" font-size="12">agentic work</text>
+<rect x="1125" y="150" width="180" height="380" rx="10" fill="#d7d7d7" stroke="#333" stroke-width="2"/>
+<text x="1215" y="182" text-anchor="middle" font-size="18" font-weight="700">max</text>
+<text x="1215" y="208" text-anchor="middle" font-size="12">Most time for</text>
+<text x="1215" y="226" text-anchor="middle" font-size="12">alternatives, checks,</text>
+<text x="1215" y="244" text-anchor="middle" font-size="12">revision</text>
+<text x="675" y="590" text-anchor="middle" font-size="13">Actual reasoning-token use remains adaptive to task difficulty and may overlap across adjacent levels.</text></svg>

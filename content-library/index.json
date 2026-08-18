@@ -1,0 +1,3214 @@
+{
+  "generatedAt": "2026-08-18T03:00:30.226Z",
+  "sourcePolicy": "保留经过整理的课程与技术研究内容；排除交接文档、Skills 清单、婚礼文稿、公司业务资料、原始工作区导出与重复副本。",
+  "courses": [
+    {
+      "id": "agentic-ai",
+      "title": "Agentic AI 智能体工作流",
+      "count": 31,
+      "modules": [
+        "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+        "2. 反思设计模式(Reflection Design Pattern)",
+        "3. 工具使用(Tool Use)",
+        "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+        "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)"
+      ],
+      "items": [
+        "agentic-ai/agentic-ai-欢迎来到本课程-welcome",
+        "agentic-ai/agentic-ai-什么是智能体-ai-what-is-agentic-al",
+        "agentic-ai/agentic-ai-自主程度-degrees-of-autonomy",
+        "agentic-ai/agentic-ai-智能体-ai-的优势-benefits-of-agentic-ai",
+        "agentic-ai/agentic-ai-智能体-ai-的应用-agentic-ai-applications",
+        "agentic-ai/agentic-ai-为什么需要任务分解-task-decomposition-identifying-the-steps-in-a-workflow",
+        "agentic-ai/agentic-ai-评估智能体-ai-评测-evaluation-agentic-al-evals",
+        "agentic-ai/agentic-ai-智能体设计模式-agentic-design-patterns",
+        "agentic-ai/agentic-ai-反思如何改进任务输出-reflection-to-improve-outputs-of-a-task",
+        "agentic-ai/agentic-ai-为什么不一次直接生成-why-not-just-direct-generation",
+        "agentic-ai/agentic-ai-图表生成工作流程-chart-generation-workflow",
+        "agentic-ai/agentic-ai-评估反思的影响-evaluating-the-impact-ofreflection",
+        "agentic-ai/agentic-ai-使用外部反馈-using-external-feedback",
+        "agentic-ai/agentic-ai-工具使用-tool-use",
+        "agentic-ai/agentic-ai-创建工具-creating-a-tool",
+        "agentic-ai/agentic-ai-工具调用语法-tool-use-syntax",
+        "agentic-ai/agentic-ai-工具使用-代码执行-tool-use-code-execution",
+        "agentic-ai/agentic-ai-工具使用-mcp-model-context-protocol",
+        "agentic-ai/agentic-ai-4-1-评估-evals-evaluations-evals",
+        "agentic-ai/agentic-ai-4-2-错误分析与制定下一步优先级-error-analysis-and-prioritizing-next-steps",
+        "agentic-ai/agentic-ai-更多错误分析示例-more-error-analysis-examples",
+        "agentic-ai/agentic-ai-4-4-组件级评估-component-level-evaluations",
+        "agentic-ai/agentic-ai-4-6-解决识别到的问题-how-to-address-problems-you-identify",
+        "agentic-ai/agentic-ai-4-7-延迟与成本优化-latency-cost-optimization",
+        "agentic-ai/agentic-ai-4-8-开发过程总结-development-process-summary",
+        "agentic-ai/agentic-ai-5-1-工作流规划-planning-workflows",
+        "agentic-ai/agentic-ai-5-10-总结-conclusion",
+        "agentic-ai/agentic-ai-5-2-创建与执行llm计划-creating-and-executing-llm-plans",
+        "agentic-ai/agentic-ai-5-3-结合代码执行的规划-planning-with-code-execution",
+        "agentic-ai/agentic-ai-5-5-多智能体工作流-multi-agentic-workflows",
+        "agentic-ai/agentic-ai-5-7-多智能体系统的通信模式-communication-patterns-for-multi-agent-systems"
+      ]
+    },
+    {
+      "id": "mcts",
+      "title": "搜索与决策算法",
+      "count": 1,
+      "modules": [
+        "蒙特卡洛树搜索"
+      ],
+      "items": [
+        "mcts/mcts-从蒙特卡洛评估到-uct-计算机如何学会下围棋"
+      ]
+    },
+    {
+      "id": "tech-series",
+      "title": "Agent 系统与 LLM 基础设施",
+      "count": 11,
+      "modules": [
+        "技术研究报告",
+        "系列总览"
+      ],
+      "items": [
+        "tech-series/tech-series-ai-智能体长期记忆-memory-bank",
+        "tech-series/tech-series-ai-harness-深解-把黑箱模型拴在稳定的现实上",
+        "tech-series/tech-series-在-google-cloud-上使用-claude-构建应用",
+        "tech-series/tech-series-编码-agent-的运行中输入调度-中断-引导与排队",
+        "tech-series/tech-series-闭源前沿模型的参数规模估计",
+        "tech-series/tech-series-gpt-5-6-sol-的推理等级与路由机制-官方能证明什么-什么仍不可知",
+        "tech-series/tech-series-technical-series-agent-systems-llm-infrastructure",
+        "tech-series/tech-series-详解-kimi-k3-冲击前沿的开放权重模型",
+        "tech-series/tech-series-大语言模型训练资源需求分析",
+        "tech-series/tech-series-pi-agent-runtime",
+        "tech-series/tech-series-prompting-101-与-claude-一起构建提示词"
+      ]
+    },
+    {
+      "id": "paper-ai-overview",
+      "title": "什么是人工智能",
+      "count": 3,
+      "modules": [
+        "第 00 门课程"
+      ],
+      "items": [
+        "paper-ai-overview/paper-ai-overview-人工智能的诞生-从计算思想到学科形成",
+        "paper-ai-overview/paper-ai-overview-人工智能的发展脉络-符号主义-统计学习-深度学习与基础模型",
+        "paper-ai-overview/paper-ai-overview-人工智能的定义-能力边界与评价框架"
+      ]
+    },
+    {
+      "id": "paper-neural-network",
+      "title": "神经网络是如何实现的",
+      "count": 18,
+      "modules": [
+        "第 01 门课程"
+      ],
+      "items": [
+        "paper-neural-network/paper-neural-network-神经网络概论-从人工神经元到深度表示学习",
+        "paper-neural-network/paper-neural-network-人工神经元与前馈网络-线性变换-激活函数和层级表示",
+        "paper-neural-network/paper-neural-network-神经网络训练-损失函数-经验风险与梯度下降",
+        "paper-neural-network/paper-neural-network-反向传播-链式法则-偏导数与计算图",
+        "paper-neural-network/paper-neural-network-卷积神经网络的提出-局部连接-权值共享与空间结构",
+        "paper-neural-network/paper-neural-network-卷积运算与池化-卷积核-步幅-填充和输出尺寸",
+        "paper-neural-network/paper-neural-network-lenet-与手写数字识别-卷积特征与全连接分类器",
+        "paper-neural-network/paper-neural-network-深层卷积网络与-googlenet-网络加深-inception-与多尺度特征",
+        "paper-neural-network/paper-neural-network-resnet-退化问题-残差学习与跳跃连接",
+        "paper-neural-network/paper-neural-network-过拟合与泛化-训练集-验证集-正则化与早停",
+        "paper-neural-network/paper-neural-network-文本的数值表示-one-hot-分布式表示与词向量",
+        "paper-neural-network/paper-neural-network-神经网络语言模型-上下文条件概率与词向量学习",
+        "paper-neural-network/paper-neural-network-word2vec-cbow-skip-gram-与高效词向量学习",
+        "paper-neural-network/paper-neural-network-循环神经网络-序列建模-隐藏状态与时间展开",
+        "paper-neural-network/paper-neural-network-rnn-的序列任务-标注-双向建模与编码器-解码器",
+        "paper-neural-network/paper-neural-network-lstm-长期依赖-门控机制与记忆单元",
+        "paper-neural-network/paper-neural-network-深度学习框架-自动微分-计算图与现代训练软件栈",
+        "paper-neural-network/paper-neural-network-反向传播推导补充-从复合函数到多层网络梯度"
+      ]
+    },
+    {
+      "id": "paper-go",
+      "title": "计算机是如何学会下棋的",
+      "count": 10,
+      "modules": [
+        "第 02 门课程"
+      ],
+      "items": [
+        "paper-go/paper-go-计算机博弈概论-状态空间-博弈树与人机对弈史",
+        "paper-go/paper-go-minimax-有限深度对抗搜索与评价函数",
+        "paper-go/paper-go-alpha-beta-pruning-边界传播-剪枝条件与搜索效率",
+        "paper-go/paper-go-围棋为何困难-巨大分支因子-局面估值与-monte-carlo-思路",
+        "paper-go/paper-go-monte-carlo-tree-search-selection-expansion-simulation-与-backup",
+        "paper-go/paper-go-alphago-深度策略学习-价值评估与蒙特卡洛树搜索的统一框架",
+        "paper-go/paper-go-alphago-中的策略梯度强化学习与自我博弈",
+        "paper-go/paper-go-基于价值评估的强化学习-状态价值-td-思想与-value-network",
+        "paper-go/paper-go-alphago-zero-从零自我博弈-policy-value-network-与改进-mcts",
+        "paper-go/paper-go-计算机博弈方法总结-deep-blue-mcts-与-alphago-范式比较"
+      ]
+    },
+    {
+      "id": "paper-shortest-path",
+      "title": "计算机是如何找到最优路径的",
+      "count": 12,
+      "modules": [
+        "第 03 门课程"
+      ],
+      "items": [
+        "paper-shortest-path/paper-shortest-path-路径搜索问题-图模型-状态空间与最优路径目标",
+        "paper-shortest-path/paper-shortest-path-广度优先搜索-层次扩展-完备性与单位代价最优性",
+        "paper-shortest-path/paper-shortest-path-dijkstra-算法-非负边权下的单源最短路径",
+        "paper-shortest-path/paper-shortest-path-启发式搜索-从代价函数到-a-算法",
+        "paper-shortest-path/paper-shortest-path-a-搜索-可采纳启发式与最优性条件",
+        "paper-shortest-path/paper-shortest-path-启发式质量-支配关系-搜索效率与信息性",
+        "paper-shortest-path/paper-shortest-path-一致性启发式与重复状态-graph-search-中的-a",
+        "paper-shortest-path/paper-shortest-path-a-的实现优化-重开节点-优先队列与路径重构",
+        "paper-shortest-path/paper-shortest-path-深度优先与回溯-低空间搜索和-n-皇后问题",
+        "paper-shortest-path/paper-shortest-path-迭代加深-iddfs-与-ida-的时间-空间折衷",
+        "paper-shortest-path/paper-shortest-path-动态规划与-viterbi-分层图上的最优子结构",
+        "paper-shortest-path/paper-shortest-path-viterbi-的语言输入应用-从拼音候选到最优序列解码"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization",
+      "title": "如何用随机方法求解组合优化问题",
+      "count": 12,
+      "modules": [
+        "第 04 门课程"
+      ],
+      "items": [
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-组合优化与随机搜索-解空间-邻域与-tsp",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-局部搜索与爬山法-邻域改进-局部最优与随机重启",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-跳出局部最优-随机接受与模拟退火的基本思想",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-metropolis-准则与统计力学解释-boltzmann-分布与详细平衡",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-模拟退火算法-温度调度-马尔可夫链与收敛框架",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-模拟退火的参数设计-初温-降温-链长与终止条件",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-模拟退火求解-tsp-排列邻域-路径长度与实验设计",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法基础-群体-适应度-选择-交叉与变异",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法实例-二进制编码-轮盘赌与代际演化",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法的编码与交叉-二进制-排列表示及可行解约束",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法的变异与参数控制-位翻转-交换-逆序与多样性",
+        "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法求解-tsp-排列染色体-适应度与算子组合"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning",
+      "title": "统计学习方法是如何实现分类与聚类的",
+      "count": 12,
+      "modules": [
+        "第 05 门课程"
+      ],
+      "items": [
+        "paper-statistical-learning/paper-statistical-learning-统计学习概论-监督学习-无监督学习与泛化",
+        "paper-statistical-learning/paper-statistical-learning-朴素贝叶斯-贝叶斯决策-条件独立与-map-分类",
+        "paper-statistical-learning/paper-statistical-learning-决策树基础-熵-条件熵与信息增益",
+        "paper-statistical-learning/paper-statistical-learning-id3-基于信息增益的递归决策树生成",
+        "paper-statistical-learning/paper-statistical-learning-c4-5-增益率-连续属性与-id3-的改进",
+        "paper-statistical-learning/paper-statistical-learning-决策树的过拟合与剪枝-验证误差和结构正则化",
+        "paper-statistical-learning/paper-statistical-learning-随机森林-bootstrap-随机特征与集成投票",
+        "paper-statistical-learning/paper-statistical-learning-k-近邻-距离度量-k-的选择与非参数分类",
+        "paper-statistical-learning/paper-statistical-learning-支持向量机概论-最大间隔-支持向量与超平面",
+        "paper-statistical-learning/paper-statistical-learning-线性可分-svm-硬间隔原始问题与规范化约束",
+        "paper-statistical-learning/paper-statistical-learning-svm-对偶问题-lagrange-乘子-kkt-与支持向量解",
+        "paper-statistical-learning/paper-statistical-learning-软间隔-svm-松弛变量-惩罚参数与不可分数据"
+      ]
+    },
+    {
+      "id": "paper-llm-prep",
+      "title": "大语言模型预备知识",
+      "count": 2,
+      "modules": [
+        "第 07 门课程"
+      ],
+      "items": [
+        "paper-llm-prep/paper-llm-prep-矩阵与向量运算-大语言模型中的线性代数基础",
+        "paper-llm-prep/paper-llm-prep-概率基础-随机变量-期望-方差-条件概率与分布"
+      ]
+    },
+    {
+      "id": "paper-what-is-llm",
+      "title": "什么是大语言模型",
+      "count": 1,
+      "modules": [
+        "第 08 门课程"
+      ],
+      "items": [
+        "paper-what-is-llm/paper-what-is-llm-大语言模型概论-自回归建模-预训练-规模化与能力边界"
+      ]
+    },
+    {
+      "id": "paper-reinforcement-learning",
+      "title": "强化学习方法",
+      "count": 3,
+      "modules": [
+        "第 09 门课程"
+      ],
+      "items": [
+        "paper-reinforcement-learning/paper-reinforcement-learning-强化学习与策略梯度-状态-行动-回报与-reinforce",
+        "paper-reinforcement-learning/paper-reinforcement-learning-actor-critic-策略网络-价值基线与优势函数",
+        "paper-reinforcement-learning/paper-reinforcement-learning-ppo-近端策略优化-重要性比率与裁剪目标"
+      ]
+    },
+    {
+      "id": "paper-rlhf",
+      "title": "基于人类反馈的强化学习方法",
+      "count": 1,
+      "modules": [
+        "第 10 门课程"
+      ],
+      "items": [
+        "paper-rlhf/paper-rlhf-rlhf-监督微调-奖励模型与-ppo-对齐"
+      ]
+    },
+    {
+      "id": "paper-bert",
+      "title": "BERT 模型",
+      "count": 2,
+      "modules": [
+        "第 11 门课程"
+      ],
+      "items": [
+        "paper-bert/paper-bert-bert-预训练-双向-transformer-encoder-mlm-与-nsp",
+        "paper-bert/paper-bert-bert-微调-句对分类-序列标注与抽取式问答"
+      ]
+    },
+    {
+      "id": "paper-gpt",
+      "title": "GPT 模型",
+      "count": 4,
+      "modules": [
+        "第 12 门课程"
+      ],
+      "items": [
+        "paper-gpt/paper-gpt-gpt-1-生成式预训练与任务微调",
+        "paper-gpt/paper-gpt-gpt-2-规模扩展-webtext-与零样本任务迁移",
+        "paper-gpt/paper-gpt-gpt-3-175b-参数-上下文学习与-zero-one-few-shot",
+        "paper-gpt/paper-gpt-chatgpt-与指令对齐-从-gpt-预训练到-instructgpt-rlhf"
+      ]
+    },
+    {
+      "id": "paper-transformer",
+      "title": "Transformer 模型",
+      "count": 8,
+      "modules": [
+        "第 13 门课程"
+      ],
+      "items": [
+        "paper-transformer/paper-transformer-序列到序列建模-encoder-decoder-与-transformer-的提出",
+        "paper-transformer/paper-transformer-注意力与自注意力-query-key-value-与-scaled-dot-product-attention",
+        "paper-transformer/paper-transformer-多头注意力-并行子空间-投影矩阵与信息聚合",
+        "paper-transformer/paper-transformer-残差连接与-layer-normalization-深层-transformer-的稳定训练",
+        "paper-transformer/paper-transformer-transformer-encoder-embedding-position-self-attention-与-ffn",
+        "paper-transformer/paper-transformer-transformer-decoder-masked-self-attention-cross-attention-与自回归生成",
+        "paper-transformer/paper-transformer-绝对位置编码-可学习位置向量与正弦-余弦编码",
+        "paper-transformer/paper-transformer-相对位置表示-relation-aware-self-attention-与距离建模"
+      ]
+    },
+    {
+      "id": "research-articles",
+      "title": "技术研究与长文",
+      "count": 4,
+      "modules": [
+        "专题文章"
+      ],
+      "items": [
+        "research-articles/research-articles-行动胜于言辞-面向生成式推荐的万亿参数序列转导器-openai-style-research-documentation",
+        "research-articles/research-articles-朱松纯两万字演讲-ai热潮的回望与反思-思想自主-未来展望",
+        "research-articles/research-articles-grok-build-架构分析-xai-org-grok-build",
+        "research-articles/research-articles-claude-code-101-系列字幕笔记-英中对照"
+      ]
+    },
+    {
+      "id": "ai-field-notes",
+      "title": "AI Field Notes",
+      "count": 6,
+      "modules": [
+        "模型与 Agent 工程"
+      ],
+      "items": [
+        "ai-field-notes/ai-field-notes-ai-field-notes-ai-field-notes",
+        "ai-field-notes/ai-field-notes-controlling-reasoning-effort-in-llms-ai-field-notes",
+        "ai-field-notes/ai-field-notes-gpt-5-6-model-family-and-reasoning-effort-architecture-ai-field-notes",
+        "ai-field-notes/ai-field-notes-skill-issue-autoresearch-and-the-loopy-era-of-ai-ai-field-notes",
+        "ai-field-notes/ai-field-notes-from-vibe-coding-to-agentic-engineering-ai-field-notes",
+        "ai-field-notes/ai-field-notes-controlling-reasoning-effort-in-llms-ai-field-notes-2"
+      ]
+    },
+    {
+      "id": "research-notes",
+      "title": "专题研究笔记",
+      "count": 8,
+      "modules": [
+        "研究与实验"
+      ],
+      "items": [
+        "research-notes/research-notes-loop入门",
+        "research-notes/research-notes-chatgpt-images-2-0-gpt-image-2-技术调研报告",
+        "research-notes/research-notes-面向百万级上下文的开源与开放模型长上下文能力调研评估",
+        "research-notes/research-notes-图像生成技术的迭代与现状综述报告",
+        "research-notes/research-notes-grant-sanderson-ai-and-the-future-of-math-qa-notes",
+        "research-notes/research-notes-loop-engineering-循环工程-讲解整理",
+        "research-notes/research-notes-从-stable-diffusion-到-gpt-3-一次关于生成模型-rnn-与推理模型的技术梳理",
+        "research-notes/research-notes-gpt-现状-state-of-gpt"
+      ]
+    },
+    {
+      "id": "model-evolution",
+      "title": "模型演进与架构",
+      "count": 1,
+      "modules": [
+        "GPT-2 到 Kimi3"
+      ],
+      "items": [
+        "model-evolution/model-evolution-22580-从-gpt2-到-kimi3-的演进"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "agentic-ai/agentic-ai-欢迎来到本课程-welcome",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "欢迎来到本课程 Welcome!",
+      "summary": "创造初衷",
+      "bodyFile": "content-library/agentic-ai-欢迎来到本课程-welcome.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.1 欢迎(Welcome).md"
+      ],
+      "type": "markdown",
+      "order": 1,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-什么是智能体-ai-what-is-agentic-al",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "什么是智能体 AI？ What is agentic Al?",
+      "summary": "“非智能体”工作流指的是用户通过一个单一提示（prompt），要求大型语言模型（LLM）一次性完成整个任务，这种工作流被称为“零样本”（zero-shot）工作流。",
+      "bodyFile": "content-library/agentic-ai-什么是智能体-ai-what-is-agentic-al.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.2 什么是Agentic AI(What is agentic AI).md"
+      ],
+      "type": "markdown",
+      "order": 2,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-自主程度-degrees-of-autonomy",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "自主程度 Degrees of autonomy",
+      "summary": "过去几年，AI社区内关于“什么是智能体”的定义存在争议，有人写论文定义它，也有人否认某些系统是“真正的智能体”。已经有'agent'这个词，为什么还要创造'Agentic'?",
+      "bodyFile": "content-library/agentic-ai-自主程度-degrees-of-autonomy.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.3 自主性等级(Degrees of autonomy).md"
+      ],
+      "type": "markdown",
+      "order": 3,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-智能体-ai-的优势-benefits-of-agentic-ai",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "智能体 AI 的优势 benefits-of-agentic-ai",
+      "summary": "1. 性能飞跃（Much Better Performance） 2. 并行加速（Faster than Humans because of Parallelization） 3. 模块化设计（Modular: Can Add/Update/Swap Components）",
+      "bodyFile": "content-library/agentic-ai-智能体-ai-的优势-benefits-of-agentic-ai.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.4 Agentic AI的益处(Benefits of agentic AI).md"
+      ],
+      "type": "markdown",
+      "order": 4,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-智能体-ai-的应用-agentic-ai-applications",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "智能体 AI 的应用 Agentic-ai-applications",
+      "summary": "- agentic-ai一种让 AI Agent 根据明确或动态的任务目标，自主调用工具、访问数据库、执行步骤并完成任务的工作模式。 - 不同于传统“输入-输出”的简单问答，它强调多步骤规划、工具使用、状态更新与决策能力。 自动化处理企业收到的发票，提取关键信息并记录到数据库，以确保及时付款。",
+      "bodyFile": "content-library/agentic-ai-智能体-ai-的应用-agentic-ai-applications.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.5 Agentic AI应用(Agentic AI applications).md"
+      ],
+      "type": "markdown",
+      "order": 5,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-为什么需要任务分解-task-decomposition-identifying-the-steps-in-a-workflow",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "为什么需要任务分解？ Task decomposition:Identifying the steps in a workflow?",
+      "summary": "任务分解是构建代理型AI工作流的关键技能。其核心思想是： 1. 观察人类行为: 思考如果一个人类要完成这个任务，他会怎么做？ 2. 拆解步骤: 将整个任务拆解成多个独立的、清晰的子步骤。 3. 评估可行性: 对每个子步骤，思考它是否能用大型语言模型（LLM）或某个工具（如API、函数调用）来实现。 4. 迭代优化: 如果初步分解的效果不理想，可以进一步细化某个步骤，将其拆分成更小的子步骤，直到达到满意的性能。",
+      "bodyFile": "content-library/agentic-ai-为什么需要任务分解-task-decomposition-identifying-the-steps-in-a-workflow.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.6 任务分解-识别工作流程步骤(Task decomposition- identifying the steps in a workflow).md"
+      ],
+      "type": "markdown",
+      "order": 6,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-评估智能体-ai-评测-evaluation-agentic-al-evals",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "评估智能体 AI（评测）Evaluation agentic Al (evals)",
+      "summary": "- 预测成败的关键：在团队合作中，能否有效评估工作流是区分“做得好”与“做得差”的最大因素之一。 - 驱动迭代优化：没有评估，就无法知道哪里出了问题，也无法改进。 - 避免“黑盒”陷阱：不能只看最终输出，要深入分析中间过程和错误根源。",
+      "bodyFile": "content-library/agentic-ai-评估智能体-ai-评测-evaluation-agentic-al-evals.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.7 Agentic AI评估（evals）(Evaluating agentic AI (evals)).md"
+      ],
+      "type": "markdown",
+      "order": 7,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-智能体设计模式-agentic-design-patterns",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "1. Agentic工作流简介(Introduction to Agentic Workflows)",
+      "title": "智能体设计模式 Agentic design patterns",
+      "summary": "智能体工作流的核心思想是将复杂的任务分解为一系列基础“构建模块”（building blocks），然后通过特定的设计模式将这些模块组合、串联起来，从而构建出能够处理复杂问题的系统。 - 核心概念： 让模型对自己的输出进行检查、评估和改进。 - 工作流程： 1. 初始生成： 模型根据任务要求生成一个初步结果（如代码）。 2. 自我评估/外部评估： 将该结果作为输入，再次提示同一个或另一个模型，要求其对结果进行批判性分析（如检查正确性、风",
+      "bodyFile": "content-library/agentic-ai-智能体设计模式-agentic-design-patterns.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/1. Agentic工作流简介(Introduction to Agentic Workflows)/1.8 Agentic设计模式(Agentic design patterns).md"
+      ],
+      "type": "markdown",
+      "order": 8,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-反思如何改进任务输出-reflection-to-improve-outputs-of-a-task",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "2. 反思设计模式(Reflection Design Pattern)",
+      "title": "反思如何改进任务输出 Reflection to improve outputs of a task",
+      "summary": "“反思模式”是经常使用且实现起来“出奇地简单”的一种方法。",
+      "bodyFile": "content-library/agentic-ai-反思如何改进任务输出-reflection-to-improve-outputs-of-a-task.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/2. 反思设计模式(Reflection Design Pattern)/2.1 用反思提升任务输出(Reflection to improve outputs of a task).md"
+      ],
+      "type": "markdown",
+      "order": 9,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-为什么不一次直接生成-why-not-just-direct-generation",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "2. 反思设计模式(Reflection Design Pattern)",
+      "title": "为什么不一次直接生成？Why not just direct generation?",
+      "summary": "在“直接生成”（Direct Generation）与“反思工作流”（Reflection Workflow）之间，我们为何更倾向于要采用一个包含反思步骤的复杂工作流？这个问题直指AI应用的核心权衡：效率 vs. 质量。 虽然“直接生成”看似简单快捷，但“反思”能带来更优的结果，值得我们投入额外的计算成本。",
+      "bodyFile": "content-library/agentic-ai-为什么不一次直接生成-why-not-just-direct-generation.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/2. 反思设计模式(Reflection Design Pattern)/2.2 为何不只用迭代(Why not just iteration).md"
+      ],
+      "type": "markdown",
+      "order": 10,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-图表生成工作流程-chart-generation-workflow",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "2. 反思设计模式(Reflection Design Pattern)",
+      "title": "图表生成工作流程 Chart generation workflow",
+      "summary": "如何利用“反思设计模式”结合多模态AI，将一份粗糙的图表初稿，迭代优化为清晰、美观、专业的可视化作品。 通过一个咖啡销售数据的实战案例，生动展示了AI如何像人类专家一样“审视”和“改进”自己的工作成果。",
+      "bodyFile": "content-library/agentic-ai-图表生成工作流程-chart-generation-workflow.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/2. 反思设计模式(Reflection Design Pattern)/2.3 图表生成工作流(Chart generation workflow).md"
+      ],
+      "type": "markdown",
+      "order": 11,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-评估反思的影响-evaluating-the-impact-ofreflection",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "2. 反思设计模式(Reflection Design Pattern)",
+      "title": "评估反思的影响 Evaluating the impact ofreflection",
+      "summary": "反思（Reflection）作为一种设计模式，能有效提升agent性能，但其代价是会略微拖慢agent速度。因此，关键在于如何科学地评估反思带来的实际收益，从而在“性能提升”与“效率损耗”之间做出明智取舍。 反思工作流",
+      "bodyFile": "content-library/agentic-ai-评估反思的影响-evaluating-the-impact-ofreflection.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/2. 反思设计模式(Reflection Design Pattern)/2.5 评估反思的影响(Evaluating the impact of reflection).md"
+      ],
+      "type": "markdown",
+      "order": 12,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-使用外部反馈-using-external-feedback",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "2. 反思设计模式(Reflection Design Pattern)",
+      "title": "使用外部反馈（Using external feedback）",
+      "summary": "在构建AI智能体工作流时，单纯的“自我反思”存在性能瓶颈。真正的突破在于引入外部反馈（External Feedback）。这不仅能打破性能天花板，还能让系统获得全新的、更强大的信息源，从而实现质的飞跃。 - 横轴：投入在提示词工程上的时间。 - 纵轴：系统性能。 - 红色曲线（无反思）： - 初期，通过调整提示词，性能会快速提升。 - 但很快，性能增长会放缓并趋于平缓，进入“平台期”。此时，即使再花费大量时间微调提示词，也很难获得显著",
+      "bodyFile": "content-library/agentic-ai-使用外部反馈-using-external-feedback.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/2. 反思设计模式(Reflection Design Pattern)/2.6 使用外部反馈(Using external feedback).md"
+      ],
+      "type": "markdown",
+      "order": 13,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-工具使用-tool-use",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "3. 工具使用(Tool Use)",
+      "title": "工具使用 Tool Use",
+      "summary": "核心思想：工具即函数，模型自主决策 关键在于，模型拥有自主决策权。它不再是被动地根据内部知识库生成答案，而是能主动判断：在当前情境下，是否需要、以及应该调用哪个工具来完成任务。 就像人类借助锤子、扳手等工具能完成徒手无法做到的事情一样，语言模型通过调用“函数工具”，也能突破自身训练数据和能力的限制，变得无比强大。 例子：工具使用的运作流程 以“现在几点？”为例，清晰展示了工具使用的完整闭环： 1. 输入提示 (Input Prompt)",
+      "bodyFile": "content-library/agentic-ai-工具使用-tool-use.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/3. 工具使用(Tool Use)/3.1 什么是工具(What are tools).md"
+      ],
+      "type": "markdown",
+      "order": 14,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-创建工具-creating-a-tool",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "3. 工具使用(Tool Use)",
+      "title": "创建工具 Creating a Tool",
+      "summary": "LLM本身并不会直接执行代码或调用函数，它被训练的核心能力是生成文本。 如何让LLM学会调用函数的过程，核心思想是模型不直接调用，而是“请求”调用。工具其实就是一些代码/函数。如今的主流语言模型都经过直接训练去使用工具，没有训练就必须得写提示词来告诉模型如何使用工具。",
+      "bodyFile": "content-library/agentic-ai-创建工具-creating-a-tool.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/3. 工具使用(Tool Use)/3.2 创建一个工具(Creating a tool).md"
+      ],
+      "type": "markdown",
+      "order": 15,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-工具调用语法-tool-use-syntax",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "3. 工具使用(Tool Use)",
+      "title": "工具调用语法 Tool Use Syntax",
+      "summary": "工具调用的本质： - LLM（大语言模型）本身不会直接调用工具。 - LLM 会“请求”开发者去调用某个工具，开发者负责执行该工具并将其结果返回给 LLM。 - 在开发社区中，人们常简化说“LLM 调用了工具”，但这在技术上并不准确，仅是一种便捷的说法。",
+      "bodyFile": "content-library/agentic-ai-工具调用语法-tool-use-syntax.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/3. 工具使用(Tool Use)/3.3 工具语法(Tool syntax).md"
+      ],
+      "type": "markdown",
+      "order": 16,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-工具使用-代码执行-tool-use-code-execution",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "3. 工具使用(Tool Use)",
+      "title": "工具使用 - 代码执行 Tool Use: Code Execution",
+      "summary": "代码执行（Code execution）是让大型语言模型（LLM）能够编写并运行代码，以解决用户提出的任务。 - 核心优势: - 强大能力: LLM生成的代码方案常常出人意料地聪明和有效，能解决各种复杂任务。 - 灵活性: 相比于为每个功能手动创建独立工具，让模型自己写代码是一种更灵活、可扩展性更强的方法。例如，一个科学计算器有大量功能按钮，不可能为每个按钮都创建一个工具。 - 提升应用性能: 许多语言模型的训练者会专门优化模型，以确保",
+      "bodyFile": "content-library/agentic-ai-工具使用-代码执行-tool-use-code-execution.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/3. 工具使用(Tool Use)/3.6 代码执行(Code execution).md"
+      ],
+      "type": "markdown",
+      "order": 17,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-工具使用-mcp-model-context-protocol",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "3. 工具使用(Tool Use)",
+      "title": "工具使用 - MCP Model Context Protocol",
+      "summary": "定义：MCP（Model Context Protocol，模型上下文协议）是由 Entropy 提出的一个标准，旨在为大型语言模型（LLM）提供一种标准化的方式来访问外部工具和数据源。 目的：解决开发者在构建智能体式应用时，需要为每个应用重复编写代码来集成不同工具（如 Slack, GitHub, Google Drive 等）的痛点。 现状：该协议已被许多公司和开发者广泛采用，形成了一个活跃的生态系统。",
+      "bodyFile": "content-library/agentic-ai-工具使用-mcp-model-context-protocol.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/3. 工具使用(Tool Use)/3.7 MCP(MCP).md"
+      ],
+      "type": "markdown",
+      "order": 18,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-4-1-评估-evals-evaluations-evals",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "4.1 评估（evals）(Evaluations (evals))",
+      "summary": "写在前面 你好，我是第四/五模块的作者杨若朴，很高兴能和你学习分享这些课程。 在这两个模块中，有时你会看到像现在这句话一样，使用了markdown引用语法> 的段落。 这些段落是我在记录笔记时添加的个人想法，与课程原文内容无关，仅供参考与交流。 另外，如果读者对本课程的内容有任何勘误、建议或想法，欢迎提交issue，我们会及时回复。 也可通过邮箱联系我：simuoss@163.com 在构建Agentflow/Workflow时，如何提",
+      "bodyFile": "content-library/agentic-ai-4-1-评估-evals-evaluations-evals.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.1 评估（evals）(Evaluations (evals)).md"
+      ],
+      "type": "markdown",
+      "order": 19,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-4-2-错误分析与制定下一步优先级-error-analysis-and-prioritizing-next-steps",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "4.2 错误分析与制定下一步优先级(Error analysis and prioritizing next steps)",
+      "summary": "在复杂的代理式 AI 工作流程中，通过系统性的错误分析来确定工作重点，是提高系统改进效率的关键。",
+      "bodyFile": "content-library/agentic-ai-4-2-错误分析与制定下一步优先级-error-analysis-and-prioritizing-next-steps.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.2 错误分析与制定下一步优先级(Error analysis and prioritizing next steps).md"
+      ],
+      "type": "markdown",
+      "order": 20,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-更多错误分析示例-more-error-analysis-examples",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "更多错误分析示例 More error analysis examples",
+      "summary": "接下来，我们到一些实际案例里，看看如何做错误分析。",
+      "bodyFile": "content-library/agentic-ai-更多错误分析示例-more-error-analysis-examples.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.3 更多错误分析示例(More error analysis examples).md"
+      ],
+      "type": "markdown",
+      "order": 21,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-4-4-组件级评估-component-level-evaluations",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "4.4 组件级评估(Component-level evaluations)",
+      "summary": "在上一节中，我们通过错误分析确定了要改进的单个组件，那么之后就是引入组件级评估针对性改进。",
+      "bodyFile": "content-library/agentic-ai-4-4-组件级评估-component-level-evaluations.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.4 组件级评估(Component-level evaluations).md"
+      ],
+      "type": "markdown",
+      "order": 22,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-4-6-解决识别到的问题-how-to-address-problems-you-identify",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "4.6 解决识别到的问题(How to address problems you identify)",
+      "summary": "在跑了评估，找到问题后，就要开始着手修改了。本节介绍的正是如何改善系统中不同组件的效果。",
+      "bodyFile": "content-library/agentic-ai-4-6-解决识别到的问题-how-to-address-problems-you-identify.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.6 解决识别到的问题(How to address problems you identify).md"
+      ],
+      "type": "markdown",
+      "order": 23,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-4-7-延迟与成本优化-latency-cost-optimization",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "4.7 延迟与成本优化(Latency, cost optimization)",
+      "summary": "在系统输出质量达到要求后，下一个优化重点是：优化工作流程的延迟和成本。",
+      "bodyFile": "content-library/agentic-ai-4-7-延迟与成本优化-latency-cost-optimization.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.7 延迟与成本优化(Latency, cost optimization).md"
+      ],
+      "type": "markdown",
+      "order": 24,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-4-8-开发过程总结-development-process-summary",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)",
+      "title": "4.8 开发过程总结(Development process summary)",
+      "summary": "对于我们开发者而言，在开发Agent工作流时，主要精力通常集中在以下两项活动中，并不断来回切换：",
+      "bodyFile": "content-library/agentic-ai-4-8-开发过程总结-development-process-summary.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/4. 构建Agentic AI的实用技巧(Practical Tips for Building Agentic AI)/4.8 开发过程总结(Development process summary).md"
+      ],
+      "type": "markdown",
+      "order": 25,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-5-1-工作流规划-planning-workflows",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)",
+      "title": "5.1 工作流规划(Planning workflows)",
+      "summary": "就像复杂软件系统需要工厂模式、单例模式、依赖倒置等等设计模式和原则一样，Agent系统想要实现复杂度与效率并重，也需要一些设计模式。",
+      "bodyFile": "content-library/agentic-ai-5-1-工作流规划-planning-workflows.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)/5.1 工作流规划(Planning workflows).md"
+      ],
+      "type": "markdown",
+      "order": 26,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-5-10-总结-conclusion",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)",
+      "title": "5.10 总结(Conclusion)",
+      "summary": "吴恩达教授在本节中，回顾了整套课程涉及到的内容。",
+      "bodyFile": "content-library/agentic-ai-5-10-总结-conclusion.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)/5.10 总结(Conclusion).md"
+      ],
+      "type": "markdown",
+      "order": 27,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-5-2-创建与执行llm计划-creating-and-executing-llm-plans",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)",
+      "title": "5.2 创建与执行LLM计划(Creating and executing LLM plans)",
+      "summary": "在规划模式中，如何利用结构化输出来保证 LLM 生成的计划能够被下游代码可靠地执行，是非常重要的。",
+      "bodyFile": "content-library/agentic-ai-5-2-创建与执行llm计划-creating-and-executing-llm-plans.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)/5.2 创建与执行LLM计划(Creating and executing LLM plans).md"
+      ],
+      "type": "markdown",
+      "order": 28,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-5-3-结合代码执行的规划-planning-with-code-execution",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)",
+      "title": "5.3 结合代码执行的规划(Planning with code execution)",
+      "summary": "在上节中，我们让LLM用JSON描述了自己的动作。但是不妨想想，与其让 LLM 输出 JSON 等结构化数据来表示计划，不如直接让 LLM 直接编写软件代码来的效果更好。LLM可以直接用代码来表达计划的多个步骤和工具调用。",
+      "bodyFile": "content-library/agentic-ai-5-3-结合代码执行的规划-planning-with-code-execution.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)/5.3 结合代码执行的规划(Planning with code execution).md"
+      ],
+      "type": "markdown",
+      "order": 29,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-5-5-多智能体工作流-multi-agentic-workflows",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)",
+      "title": "5.5 多智能体工作流(Multi-agentic workflows)",
+      "summary": "尽管所有Agent可能都基于同一个底层 LLM ，并运行在同一台电脑上，但将复杂任务分解成多个独立的角色或进程是一种更有效的开发方法，就像团队协作或计算机的多线程/多进程一样。",
+      "bodyFile": "content-library/agentic-ai-5-5-多智能体工作流-multi-agentic-workflows.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)/5.5 多智能体工作流(Multi-agentic workflows).md"
+      ],
+      "type": "markdown",
+      "order": 30,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "agentic-ai/agentic-ai-5-7-多智能体系统的通信模式-communication-patterns-for-multi-agent-systems",
+      "course": "agentic-ai",
+      "courseTitle": "Agentic AI 智能体工作流",
+      "module": "5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)",
+      "title": "5.7 多智能体系统的通信模式(Communication patterns for multi-agent systems)",
+      "summary": "当一个团队一起工作时，他们之间的沟通模式可能会非常复杂。类似地，设计多智能体系统的通信模式也同样复杂，而组织结构的好坏会极大影响系统的效率与结果。",
+      "bodyFile": "content-library/agentic-ai-5-7-多智能体系统的通信模式-communication-patterns-for-multi-agent-systems.md",
+      "sourceFiles": [
+        "agentic-ai-blog/agentic-ai/5. 高度自治智能体的模式(Patterns for Highly Autonomous Agents)/5.7 多智能体系统的通信模式(Communication patterns for multi-agent systems).md"
+      ],
+      "type": "markdown",
+      "order": 31,
+      "tags": [
+        "Agentic AI",
+        "LLM",
+        "Agent Workflow"
+      ],
+      "originalUrl": "https://learn.deeplearning.ai/courses/agentic-ai"
+    },
+    {
+      "id": "mcts/mcts-从蒙特卡洛评估到-uct-计算机如何学会下围棋",
+      "course": "mcts",
+      "courseTitle": "搜索与决策算法",
+      "module": "蒙特卡洛树搜索",
+      "title": "从蒙特卡洛评估到 UCT：计算机如何学会下围棋",
+      "summary": "课程定位：本文将马少平《跟我学 AI·计算机是如何学会下棋的（四）》上下两部分的 AI 字幕与 PPT 合并整理，并对 ASR 错误、公式记号和算法细节进行专业校正。它不是逐字稿，而是一篇可独立阅读的教学型技术博客。 读完本文，应当能够解释以下问题：",
+      "bodyFile": "content-library/mcts-从蒙特卡洛评估到-uct-计算机如何学会下围棋.md",
+      "sourceFiles": [
+        "mcts-blog/public/index.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "MCTS",
+        "UCT",
+        "Monte Carlo"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-ai-智能体长期记忆-memory-bank",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "AI 智能体长期记忆：Memory Bank",
+      "summary": "AI agent long-term memory with memory bank · Google Cloud Tech · 中文讲座报告 以 15 张视频关键帧与英文人工字幕重建讲座实况：让智能体在数天乃至数周内保持一致、具备上下文感知。",
+      "bodyFile": "content-library/tech-series-ai-智能体长期记忆-memory-bank.md",
+      "sourceFiles": [
+        "tech-series/ai-agent-long-term-memory-bank/index.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-ai-harness-深解-把黑箱模型拴在稳定的现实上",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "AI Harness 深解：把黑箱模型拴在稳定的现实上",
+      "summary": "Harnesses in AI: A Deep Dive · Tejas Kumar（IBM）· AI Engineer 大会 · 中文讲座报告 一句话主线：可靠性不来自“把提示词写得更用力”，而来自把不确定的黑箱模型，锚定在一个由确定性组件构成的稳定外壳（harness）里。",
+      "bodyFile": "content-library/tech-series-ai-harness-深解-把黑箱模型拴在稳定的现实上.md",
+      "sourceFiles": [
+        "tech-series/ai-harness-deep-dive/index.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-在-google-cloud-上使用-claude-构建应用",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "在 Google Cloud 上使用 Claude 构建应用",
+      "summary": "Building with Claude on Google Cloud · Code w/ Claude 2026 · 中文技术知识库",
+      "bodyFile": "content-library/tech-series-在-google-cloud-上使用-claude-构建应用.md",
+      "sourceFiles": [
+        "tech-series/building-with-claude-on-google-cloud/index.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-编码-agent-的运行中输入调度-中断-引导与排队",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "编码 Agent 的运行中输入调度：中断、引导与排队",
+      "summary": "一句话主线：当编码 Agent 正在连续读文件、改代码、跑命令、调子 Agent 时，用户新敲下的一句话“何时、以何种方式”成为当前决策的一部分，才是决定交互质量与安全性的核心运行时协议——而不是那个输入框本身。 研究方法：只用第一方或接近第一方的技术资料（主仓库源码、测试、官方文档、变更日志、官方问题跟踪器），不以聚合博客或论坛帖子作为机制性结论依据。",
+      "bodyFile": "content-library/tech-series-编码-agent-的运行中输入调度-中断-引导与排队.md",
+      "sourceFiles": [
+        "tech-series/coding-agent-input-scheduling/index.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-闭源前沿模型的参数规模估计",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "闭源前沿模型的参数规模估计",
+      "summary": "结论：OpenAI 与 Anthropic 均未公开这些闭源模型的真实总参数量、MoE 专家数或每 token 激活参数量。下文数字是基于官方信息、Reuters/FT、LifeArchitect 参数估计、2026 年最新 IKP 黑箱测量，以及已公开的 Kimi K3 等 MoE 架构进行的综合推断（INFERENCE）。",
+      "bodyFile": "content-library/tech-series-闭源前沿模型的参数规模估计.md",
+      "sourceFiles": [
+        "tech-series/frontier-model-parameter-estimates/index.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-gpt-5-6-sol-的推理等级与路由机制-官方能证明什么-什么仍不可知",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "GPT-5.6 Sol 的推理等级与路由机制：官方能证明什么，什么仍不可知",
+      "summary": "研究对象 · ChatGPT 网页版标准对话中的 GPT-5.6 Sol、智能自动切换、推理等级与相关路由 / 回退机制 一句话主线：ChatGPT 里的「智能、极速、中、高、极高」不是同一个模型的几个推理档；把它们讲清楚，需要同时区分模型层级、推理强度、执行模式和路由策略——并对每一条结论标注它到底有多硬的证据。",
+      "bodyFile": "content-library/tech-series-gpt-5-6-sol-的推理等级与路由机制-官方能证明什么-什么仍不可知.md",
+      "sourceFiles": [
+        "tech-series/gpt-5-6-sol-reasoning-routing/index.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-technical-series-agent-systems-llm-infrastructure",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "系列总览",
+      "title": "Technical Series · Agent Systems & LLM Infrastructure",
+      "summary": "基于来源的研究 记住、思考与训练",
+      "bodyFile": "content-library/tech-series-technical-series-agent-systems-llm-infrastructure.md",
+      "sourceFiles": [
+        "tech-series/index.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-详解-kimi-k3-冲击前沿的开放权重模型",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "详解 Kimi K3：冲击前沿的开放权重模型",
+      "summary": "\"开源了权重，没开源产生权重的'流水线'。\"——晚点LatePost 原文题记",
+      "bodyFile": "content-library/tech-series-详解-kimi-k3-冲击前沿的开放权重模型.md",
+      "sourceFiles": [
+        "tech-series/kimi-k3-latepost-interview/index.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-大语言模型训练资源需求分析",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "大语言模型训练资源需求分析",
+      "summary": "一句话结论：模型参数量只告诉我们权重文件有多大；训练系统还必须同时管理梯度、优化器状态、反向传播所需的激活值、通信缓冲区和临时工作区。因此，“训练资源约为模型参数存储规模六倍”只能作为快速筛查的 heuristic（启发式），不能当作与精度、优化器和框架实现无关的定律。 大语言模型（Large Language Model，LLM）的规模从早期的百万级、亿级参数扩展到数百亿乃至数千亿参数。Transformer 的并行计算结构、更多训练",
+      "bodyFile": "content-library/tech-series-大语言模型训练资源需求分析.md",
+      "sourceFiles": [
+        "tech-series/llm-training-memory/index.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-pi-agent-runtime",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "Pi Agent Runtime",
+      "summary": "Agent、Harness 与 Coding Agent 编排架构的源码级研究报告。",
+      "bodyFile": "content-library/tech-series-pi-agent-runtime.md",
+      "sourceFiles": [
+        "tech-series/pi-agent-runtime/index.html"
+      ],
+      "type": "html",
+      "order": 10,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-prompting-101-与-claude-一起构建提示词",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "Prompting 101：与 Claude 一起构建提示词",
+      "summary": "Prompting 101 | Code w/ Claude · Anthropic · 中文讲座报告 以 31 张视频关键帧与完整英文自动字幕重建讲座实况：一个瑞典车险理赔场景，五轮提示词迭代，一套十要素清单。",
+      "bodyFile": "content-library/tech-series-prompting-101-与-claude-一起构建提示词.md",
+      "sourceFiles": [
+        "tech-series/prompting-101-code-with-claude/index.html"
+      ],
+      "type": "html",
+      "order": 11,
+      "tags": [
+        "Agent Systems",
+        "LLM Infrastructure"
+      ]
+    },
+    {
+      "id": "paper-ai-overview/paper-ai-overview-人工智能的诞生-从计算思想到学科形成",
+      "course": "paper-ai-overview",
+      "courseTitle": "什么是人工智能",
+      "module": "第 00 门课程",
+      "title": "人工智能的诞生：从计算思想到学科形成",
+      "summary": "本文围绕“人工智能的诞生：从计算思想到学科形成”对课程 ASR 进行高密度论文式重构，并围绕 Artificial Intelligence、Turing Test、Dartmouth Workshop、symbolic AI 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-ai-overview-人工智能的诞生-从计算思想到学科形成.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/ai-overview/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "什么是人工智能"
+      ]
+    },
+    {
+      "id": "paper-ai-overview/paper-ai-overview-人工智能的发展脉络-符号主义-统计学习-深度学习与基础模型",
+      "course": "paper-ai-overview",
+      "courseTitle": "什么是人工智能",
+      "module": "第 00 门课程",
+      "title": "人工智能的发展脉络：符号主义、统计学习、深度学习与基础模型",
+      "summary": "本文围绕“人工智能的发展脉络：符号主义、统计学习、深度学习与基础模型”对课程 ASR 进行高密度论文式重构，并围绕 symbolic AI、expert systems、statistical learning、deep learning、foundation models 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可",
+      "bodyFile": "content-library/paper-ai-overview-人工智能的发展脉络-符号主义-统计学习-深度学习与基础模型.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/ai-overview/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "什么是人工智能"
+      ]
+    },
+    {
+      "id": "paper-ai-overview/paper-ai-overview-人工智能的定义-能力边界与评价框架",
+      "course": "paper-ai-overview",
+      "courseTitle": "什么是人工智能",
+      "module": "第 00 门课程",
+      "title": "人工智能的定义、能力边界与评价框架",
+      "summary": "本文围绕“人工智能的定义、能力边界与评价框架”对课程 ASR 进行高密度论文式重构，并围绕 AI definitions、rational agents、Turing Test、narrow AI、general AI 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-ai-overview-人工智能的定义-能力边界与评价框架.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/ai-overview/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "什么是人工智能"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-神经网络概论-从人工神经元到深度表示学习",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "神经网络概论：从人工神经元到深度表示学习",
+      "summary": "本文围绕“神经网络概论：从人工神经元到深度表示学习”对课程 ASR 进行高密度论文式重构，并围绕 artificial neuron、perceptron、multilayer neural network、deep learning 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正",
+      "bodyFile": "content-library/paper-neural-network-神经网络概论-从人工神经元到深度表示学习.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-人工神经元与前馈网络-线性变换-激活函数和层级表示",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "人工神经元与前馈网络：线性变换、激活函数和层级表示",
+      "summary": "本文围绕“人工神经元与前馈网络：线性变换、激活函数和层级表示”对课程 ASR 进行高密度论文式重构，并围绕 perceptron、sigmoid、ReLU、feedforward neural network 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-人工神经元与前馈网络-线性变换-激活函数和层级表示.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-神经网络训练-损失函数-经验风险与梯度下降",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "神经网络训练：损失函数、经验风险与梯度下降",
+      "summary": "本文围绕“神经网络训练：损失函数、经验风险与梯度下降”对课程 ASR 进行高密度论文式重构，并围绕 loss function、empirical risk、gradient descent、learning rate 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-神经网络训练-损失函数-经验风险与梯度下降.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-反向传播-链式法则-偏导数与计算图",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "反向传播：链式法则、偏导数与计算图",
+      "summary": "本文围绕“反向传播：链式法则、偏导数与计算图”对课程 ASR 进行高密度论文式重构，并围绕 backpropagation、chain rule、partial derivative、computational graph 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-反向传播-链式法则-偏导数与计算图.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-卷积神经网络的提出-局部连接-权值共享与空间结构",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "卷积神经网络的提出：局部连接、权值共享与空间结构",
+      "summary": "本文围绕“卷积神经网络的提出：局部连接、权值共享与空间结构”对课程 ASR 进行高密度论文式重构，并围绕 CNN、local receptive field、weight sharing、feature map 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-卷积神经网络的提出-局部连接-权值共享与空间结构.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-05.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-卷积运算与池化-卷积核-步幅-填充和输出尺寸",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "卷积运算与池化：卷积核、步幅、填充和输出尺寸",
+      "summary": "本文围绕“卷积运算与池化：卷积核、步幅、填充和输出尺寸”对课程 ASR 进行高密度论文式重构，并围绕 kernel、stride、padding、pooling、feature map 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-卷积运算与池化-卷积核-步幅-填充和输出尺寸.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-06.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-lenet-与手写数字识别-卷积特征与全连接分类器",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "LeNet 与手写数字识别：卷积特征与全连接分类器",
+      "summary": "本文围绕“LeNet 与手写数字识别：卷积特征与全连接分类器”对课程 ASR 进行高密度论文式重构，并围绕 LeNet-5、MNIST、convolution、pooling、fully connected layer 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-lenet-与手写数字识别-卷积特征与全连接分类器.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-07.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-深层卷积网络与-googlenet-网络加深-inception-与多尺度特征",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "深层卷积网络与 GoogLeNet：网络加深、Inception 与多尺度特征",
+      "summary": "本文围绕“深层卷积网络与 GoogLeNet：网络加深、Inception 与多尺度特征”对课程 ASR 进行高密度论文式重构，并围绕 GoogLeNet、Inception module、1x1 convolution、deep CNN 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行",
+      "bodyFile": "content-library/paper-neural-network-深层卷积网络与-googlenet-网络加深-inception-与多尺度特征.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-08.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-resnet-退化问题-残差学习与跳跃连接",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "ResNet：退化问题、残差学习与跳跃连接",
+      "summary": "本文围绕“ResNet：退化问题、残差学习与跳跃连接”对课程 ASR 进行高密度论文式重构，并围绕 ResNet、residual learning、skip connection、degradation problem 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-resnet-退化问题-残差学习与跳跃连接.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-09.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-过拟合与泛化-训练集-验证集-正则化与早停",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "过拟合与泛化：训练集、验证集、正则化与早停",
+      "summary": "本文围绕“过拟合与泛化：训练集、验证集、正则化与早停”对课程 ASR 进行高密度论文式重构，并围绕 overfitting、generalization、validation set、regularization、early stopping 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界",
+      "bodyFile": "content-library/paper-neural-network-过拟合与泛化-训练集-验证集-正则化与早停.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-10.html"
+      ],
+      "type": "html",
+      "order": 10,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-文本的数值表示-one-hot-分布式表示与词向量",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "文本的数值表示：One-hot、分布式表示与词向量",
+      "summary": "本文围绕“文本的数值表示：One-hot、分布式表示与词向量”对课程 ASR 进行高密度论文式重构，并围绕 one-hot encoding、distributed representation、word embedding、cosine similarity 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR",
+      "bodyFile": "content-library/paper-neural-network-文本的数值表示-one-hot-分布式表示与词向量.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-11.html"
+      ],
+      "type": "html",
+      "order": 11,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-神经网络语言模型-上下文条件概率与词向量学习",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "神经网络语言模型：上下文条件概率与词向量学习",
+      "summary": "本文围绕“神经网络语言模型：上下文条件概率与词向量学习”对课程 ASR 进行高密度论文式重构，并围绕 neural language model、conditional probability、softmax、embedding matrix 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界",
+      "bodyFile": "content-library/paper-neural-network-神经网络语言模型-上下文条件概率与词向量学习.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-12.html"
+      ],
+      "type": "html",
+      "order": 12,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-word2vec-cbow-skip-gram-与高效词向量学习",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "Word2Vec：CBOW、Skip-gram 与高效词向量学习",
+      "summary": "本文围绕“Word2Vec：CBOW、Skip-gram 与高效词向量学习”对课程 ASR 进行高密度论文式重构，并围绕 Word2Vec、CBOW、Skip-gram、negative sampling、hierarchical softmax 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念",
+      "bodyFile": "content-library/paper-neural-network-word2vec-cbow-skip-gram-与高效词向量学习.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-13.html"
+      ],
+      "type": "html",
+      "order": 13,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-循环神经网络-序列建模-隐藏状态与时间展开",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "循环神经网络：序列建模、隐藏状态与时间展开",
+      "summary": "本文围绕“循环神经网络：序列建模、隐藏状态与时间展开”对课程 ASR 进行高密度论文式重构，并围绕 RNN、hidden state、sequence modeling、BPTT 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-循环神经网络-序列建模-隐藏状态与时间展开.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-14.html"
+      ],
+      "type": "html",
+      "order": 14,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-rnn-的序列任务-标注-双向建模与编码器-解码器",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "RNN 的序列任务：标注、双向建模与编码器—解码器",
+      "summary": "本文围绕“RNN 的序列任务：标注、双向建模与编码器—解码器”对课程 ASR 进行高密度论文式重构，并围绕 sequence labeling、BiRNN、encoder-decoder、many-to-many 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-rnn-的序列任务-标注-双向建模与编码器-解码器.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-15.html"
+      ],
+      "type": "html",
+      "order": 15,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-lstm-长期依赖-门控机制与记忆单元",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "LSTM：长期依赖、门控机制与记忆单元",
+      "summary": "本文围绕“LSTM：长期依赖、门控机制与记忆单元”对课程 ASR 进行高密度论文式重构，并围绕 LSTM、forget gate、input gate、output gate、cell state 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-lstm-长期依赖-门控机制与记忆单元.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-16.html"
+      ],
+      "type": "html",
+      "order": 16,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-深度学习框架-自动微分-计算图与现代训练软件栈",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "深度学习框架：自动微分、计算图与现代训练软件栈",
+      "summary": "本文围绕“深度学习框架：自动微分、计算图与现代训练软件栈”对课程 ASR 进行高密度论文式重构，并围绕 automatic differentiation、PyTorch、TensorFlow、JAX、computational graph 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进",
+      "bodyFile": "content-library/paper-neural-network-深度学习框架-自动微分-计算图与现代训练软件栈.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-17.html"
+      ],
+      "type": "html",
+      "order": 17,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-neural-network/paper-neural-network-反向传播推导补充-从复合函数到多层网络梯度",
+      "course": "paper-neural-network",
+      "courseTitle": "神经网络是如何实现的",
+      "module": "第 01 门课程",
+      "title": "反向传播推导补充：从复合函数到多层网络梯度",
+      "summary": "本文围绕“反向传播推导补充：从复合函数到多层网络梯度”对课程 ASR 进行高密度论文式重构，并围绕 backpropagation、Jacobian、chain rule、gradient flow 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-neural-network-反向传播推导补充-从复合函数到多层网络梯度.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/neural-network/chapter-18.html"
+      ],
+      "type": "html",
+      "order": 18,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "神经网络是如何实现的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-计算机博弈概论-状态空间-博弈树与人机对弈史",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "计算机博弈概论：状态空间、博弈树与人机对弈史",
+      "summary": "本文围绕“计算机博弈概论：状态空间、博弈树与人机对弈史”对课程 ASR 进行高密度论文式重构，并围绕 game tree、state space、perfect-information game、search 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-go-计算机博弈概论-状态空间-博弈树与人机对弈史.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-minimax-有限深度对抗搜索与评价函数",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "Minimax：有限深度对抗搜索与评价函数",
+      "summary": "本文围绕“Minimax：有限深度对抗搜索与评价函数”对课程 ASR 进行高密度论文式重构，并围绕 minimax、utility、evaluation function、depth-limited search 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-go-minimax-有限深度对抗搜索与评价函数.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-alpha-beta-pruning-边界传播-剪枝条件与搜索效率",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "Alpha–Beta Pruning：边界传播、剪枝条件与搜索效率",
+      "summary": "本文围绕“Alpha–Beta Pruning：边界传播、剪枝条件与搜索效率”对课程 ASR 进行高密度论文式重构，并围绕 alpha-beta pruning、alpha bound、beta bound、move ordering 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正",
+      "bodyFile": "content-library/paper-go-alpha-beta-pruning-边界传播-剪枝条件与搜索效率.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-围棋为何困难-巨大分支因子-局面估值与-monte-carlo-思路",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "围棋为何困难：巨大分支因子、局面估值与 Monte Carlo 思路",
+      "summary": "本文围绕“围棋为何困难：巨大分支因子、局面估值与 Monte Carlo 思路”对课程 ASR 进行高密度论文式重构，并围绕 computer Go、branching factor、Monte Carlo evaluation、rollout 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边",
+      "bodyFile": "content-library/paper-go-围棋为何困难-巨大分支因子-局面估值与-monte-carlo-思路.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-monte-carlo-tree-search-selection-expansion-simulation-与-backup",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "Monte Carlo Tree Search：Selection、Expansion、Simulation 与 Backup",
+      "summary": "本文围绕“Monte Carlo Tree Search：Selection、Expansion、Simulation 与 Backup”对课程 ASR 进行高密度论文式重构，并围绕 MCTS、UCT、UCB1、rollout、backup 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进",
+      "bodyFile": "content-library/paper-go-monte-carlo-tree-search-selection-expansion-simulation-与-backup.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-05.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-alphago-深度策略学习-价值评估与蒙特卡洛树搜索的统一框架",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "AlphaGo：深度策略学习、价值评估与蒙特卡洛树搜索的统一框架",
+      "summary": "AlphaGo 是将深度卷积神经网络、强化学习（Reinforcement Learning，RL）与蒙特卡洛树搜索（Monte Carlo Tree Search，MCTS）统一到同一在线决策系统中的代表性工作。其关键创新并不是以神经网络取代搜索，而是分别利用策略模型提供行动先验、利用价值模型近似长期胜负结果，并通过树搜索在当前局面上对这些近似进行前瞻验证与统计修正。原始 AlphaGo 构造了监督学习策略网络 $p\\sigma$、强",
+      "bodyFile": "content-library/paper-go-alphago-深度策略学习-价值评估与蒙特卡洛树搜索的统一框架.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-06.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-alphago-中的策略梯度强化学习与自我博弈",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "AlphaGo 中的策略梯度强化学习与自我博弈",
+      "summary": "本文围绕“AlphaGo 中的策略梯度强化学习与自我博弈”对课程 ASR 进行高密度论文式重构，并围绕 policy gradient、REINFORCE、self-play、RL policy 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-go-alphago-中的策略梯度强化学习与自我博弈.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-07.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-基于价值评估的强化学习-状态价值-td-思想与-value-network",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "基于价值评估的强化学习：状态价值、TD 思想与 Value Network",
+      "summary": "本文围绕“基于价值评估的强化学习：状态价值、TD 思想与 Value Network”对课程 ASR 进行高密度论文式重构，并围绕 value function、Monte Carlo return、temporal difference、value network 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的",
+      "bodyFile": "content-library/paper-go-基于价值评估的强化学习-状态价值-td-思想与-value-network.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-08.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-alphago-zero-从零自我博弈-policy-value-network-与改进-mcts",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "AlphaGo Zero：从零自我博弈、Policy–Value Network 与改进 MCTS",
+      "summary": "本文围绕“AlphaGo Zero：从零自我博弈、Policy–Value Network 与改进 MCTS”对课程 ASR 进行高密度论文式重构，并围绕 AlphaGo Zero、self-play、residual network、policy-value network、MCTS 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织",
+      "bodyFile": "content-library/paper-go-alphago-zero-从零自我博弈-policy-value-network-与改进-mcts.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-09.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-go/paper-go-计算机博弈方法总结-deep-blue-mcts-与-alphago-范式比较",
+      "course": "paper-go",
+      "courseTitle": "计算机是如何学会下棋的",
+      "module": "第 02 门课程",
+      "title": "计算机博弈方法总结：Deep Blue、MCTS 与 AlphaGo 范式比较",
+      "summary": "本文围绕“计算机博弈方法总结：Deep Blue、MCTS 与 AlphaGo 范式比较”对课程 ASR 进行高密度论文式重构，并围绕 Deep Blue、minimax、alpha-beta、MCTS、AlphaGo 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-go-计算机博弈方法总结-deep-blue-mcts-与-alphago-范式比较.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/go/chapter-10.html"
+      ],
+      "type": "html",
+      "order": 10,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何学会下棋的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-路径搜索问题-图模型-状态空间与最优路径目标",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "路径搜索问题：图模型、状态空间与最优路径目标",
+      "summary": "本文围绕“路径搜索问题：图模型、状态空间与最优路径目标”对课程 ASR 进行高密度论文式重构，并围绕 graph search、state space、path cost、frontier 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-路径搜索问题-图模型-状态空间与最优路径目标.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-广度优先搜索-层次扩展-完备性与单位代价最优性",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "广度优先搜索：层次扩展、完备性与单位代价最优性",
+      "summary": "本文围绕“广度优先搜索：层次扩展、完备性与单位代价最优性”对课程 ASR 进行高密度论文式重构，并围绕 BFS、queue、completeness、unit-cost optimality 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-广度优先搜索-层次扩展-完备性与单位代价最优性.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-dijkstra-算法-非负边权下的单源最短路径",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "Dijkstra 算法：非负边权下的单源最短路径",
+      "summary": "本文围绕“Dijkstra 算法：非负边权下的单源最短路径”对课程 ASR 进行高密度论文式重构，并围绕 Dijkstra、nonnegative edge weights、relaxation、priority queue 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-dijkstra-算法-非负边权下的单源最短路径.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-启发式搜索-从代价函数到-a-算法",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "启发式搜索：从代价函数到 A 算法",
+      "summary": "本文围绕“启发式搜索：从代价函数到 A 算法”对课程 ASR 进行高密度论文式重构，并围绕 heuristic search、A search、g(n)、h(n)、f(n) 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-启发式搜索-从代价函数到-a-算法.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-a-搜索-可采纳启发式与最优性条件",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "A* 搜索：可采纳启发式与最优性条件",
+      "summary": "本文围绕“A\\ 搜索：可采纳启发式与最优性条件”对课程 ASR 进行高密度论文式重构，并围绕 A\\、admissible heuristic、optimality、goal test 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-a-搜索-可采纳启发式与最优性条件.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-05.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-启发式质量-支配关系-搜索效率与信息性",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "启发式质量：支配关系、搜索效率与信息性",
+      "summary": "本文围绕“启发式质量：支配关系、搜索效率与信息性”对课程 ASR 进行高密度论文式重构，并围绕 heuristic dominance、informedness、effective branching factor 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-启发式质量-支配关系-搜索效率与信息性.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-06.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-一致性启发式与重复状态-graph-search-中的-a",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "一致性启发式与重复状态：Graph Search 中的 A*",
+      "summary": "本文围绕“一致性启发式与重复状态：Graph Search 中的 A\\”对课程 ASR 进行高密度论文式重构，并围绕 consistent heuristic、monotonicity、duplicate state、closed set 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行",
+      "bodyFile": "content-library/paper-shortest-path-一致性启发式与重复状态-graph-search-中的-a.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-07.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-a-的实现优化-重开节点-优先队列与路径重构",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "A* 的实现优化：重开节点、优先队列与路径重构",
+      "summary": "本文围绕“A\\ 的实现优化：重开节点、优先队列与路径重构”对课程 ASR 进行高密度论文式重构，并围绕 A\\ implementation、reopening、priority queue、parent pointer 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-a-的实现优化-重开节点-优先队列与路径重构.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-08.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-深度优先与回溯-低空间搜索和-n-皇后问题",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "深度优先与回溯：低空间搜索和 N 皇后问题",
+      "summary": "本文围绕“深度优先与回溯：低空间搜索和 N 皇后问题”对课程 ASR 进行高密度论文式重构，并围绕 DFS、backtracking、N-Queens、constraint search 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-深度优先与回溯-低空间搜索和-n-皇后问题.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-09.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-迭代加深-iddfs-与-ida-的时间-空间折衷",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "迭代加深：IDDFS 与 IDA* 的时间—空间折衷",
+      "summary": "本文围绕“迭代加深：IDDFS 与 IDA\\ 的时间—空间折衷”对课程 ASR 进行高密度论文式重构，并围绕 iterative deepening、IDDFS、IDA\\、threshold 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-shortest-path-迭代加深-iddfs-与-ida-的时间-空间折衷.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-10.html"
+      ],
+      "type": "html",
+      "order": 10,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-动态规划与-viterbi-分层图上的最优子结构",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "动态规划与 Viterbi：分层图上的最优子结构",
+      "summary": "本文围绕“动态规划与 Viterbi：分层图上的最优子结构”对课程 ASR 进行高密度论文式重构，并围绕 dynamic programming、Viterbi algorithm、trellis、optimal substructure 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行",
+      "bodyFile": "content-library/paper-shortest-path-动态规划与-viterbi-分层图上的最优子结构.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-11.html"
+      ],
+      "type": "html",
+      "order": 11,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-shortest-path/paper-shortest-path-viterbi-的语言输入应用-从拼音候选到最优序列解码",
+      "course": "paper-shortest-path",
+      "courseTitle": "计算机是如何找到最优路径的",
+      "module": "第 03 门课程",
+      "title": "Viterbi 的语言输入应用：从拼音候选到最优序列解码",
+      "summary": "本文围绕“Viterbi 的语言输入应用：从拼音候选到最优序列解码”对课程 ASR 进行高密度论文式重构，并围绕 Viterbi decoding、language model、trellis、sequence decoding、pinyin input 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识",
+      "bodyFile": "content-library/paper-shortest-path-viterbi-的语言输入应用-从拼音候选到最优序列解码.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/shortest-path/chapter-12.html"
+      ],
+      "type": "html",
+      "order": 12,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "计算机是如何找到最优路径的"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-组合优化与随机搜索-解空间-邻域与-tsp",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "组合优化与随机搜索：解空间、邻域与 TSP",
+      "summary": "本文围绕“组合优化与随机搜索：解空间、邻域与 TSP”对课程 ASR 进行高密度论文式重构，并围绕 combinatorial optimization、TSP、search space、neighborhood、stochastic search 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概",
+      "bodyFile": "content-library/paper-combinatorial-optimization-组合优化与随机搜索-解空间-邻域与-tsp.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-局部搜索与爬山法-邻域改进-局部最优与随机重启",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "局部搜索与爬山法：邻域改进、局部最优与随机重启",
+      "summary": "本文围绕“局部搜索与爬山法：邻域改进、局部最优与随机重启”对课程 ASR 进行高密度论文式重构，并围绕 hill climbing、local search、local optimum、random restart 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-combinatorial-optimization-局部搜索与爬山法-邻域改进-局部最优与随机重启.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-跳出局部最优-随机接受与模拟退火的基本思想",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "跳出局部最优：随机接受与模拟退火的基本思想",
+      "summary": "本文围绕“跳出局部最优：随机接受与模拟退火的基本思想”对课程 ASR 进行高密度论文式重构，并围绕 simulated annealing、local minimum、stochastic acceptance、temperature 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正",
+      "bodyFile": "content-library/paper-combinatorial-optimization-跳出局部最优-随机接受与模拟退火的基本思想.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-metropolis-准则与统计力学解释-boltzmann-分布与详细平衡",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "Metropolis 准则与统计力学解释：Boltzmann 分布与详细平衡",
+      "summary": "本文围绕“Metropolis 准则与统计力学解释：Boltzmann 分布与详细平衡”对课程 ASR 进行高密度论文式重构，并围绕 Metropolis algorithm、Boltzmann distribution、detailed balance、Markov chain 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，",
+      "bodyFile": "content-library/paper-combinatorial-optimization-metropolis-准则与统计力学解释-boltzmann-分布与详细平衡.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-模拟退火算法-温度调度-马尔可夫链与收敛框架",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "模拟退火算法：温度调度、马尔可夫链与收敛框架",
+      "summary": "本文围绕“模拟退火算法：温度调度、马尔可夫链与收敛框架”对课程 ASR 进行高密度论文式重构，并围绕 simulated annealing、cooling schedule、Markov chain、acceptance probability 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念",
+      "bodyFile": "content-library/paper-combinatorial-optimization-模拟退火算法-温度调度-马尔可夫链与收敛框架.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-05.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-模拟退火的参数设计-初温-降温-链长与终止条件",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "模拟退火的参数设计：初温、降温、链长与终止条件",
+      "summary": "本文围绕“模拟退火的参数设计：初温、降温、链长与终止条件”对课程 ASR 进行高密度论文式重构，并围绕 initial temperature、cooling rate、Markov chain length、stopping criterion 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念",
+      "bodyFile": "content-library/paper-combinatorial-optimization-模拟退火的参数设计-初温-降温-链长与终止条件.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-06.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-模拟退火求解-tsp-排列邻域-路径长度与实验设计",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "模拟退火求解 TSP：排列邻域、路径长度与实验设计",
+      "summary": "本文围绕“模拟退火求解 TSP：排列邻域、路径长度与实验设计”对课程 ASR 进行高密度论文式重构，并围绕 TSP、simulated annealing、2-opt、swap、route length 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-combinatorial-optimization-模拟退火求解-tsp-排列邻域-路径长度与实验设计.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-07.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法基础-群体-适应度-选择-交叉与变异",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "遗传算法基础：群体、适应度、选择、交叉与变异",
+      "summary": "本文围绕“遗传算法基础：群体、适应度、选择、交叉与变异”对课程 ASR 进行高密度论文式重构，并围绕 genetic algorithm、population、fitness、selection、crossover 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-combinatorial-optimization-遗传算法基础-群体-适应度-选择-交叉与变异.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-08.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法实例-二进制编码-轮盘赌与代际演化",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "遗传算法实例：二进制编码、轮盘赌与代际演化",
+      "summary": "本文围绕“遗传算法实例：二进制编码、轮盘赌与代际演化”对课程 ASR 进行高密度论文式重构，并围绕 binary encoding、roulette-wheel selection、crossover probability、mutation probability 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的",
+      "bodyFile": "content-library/paper-combinatorial-optimization-遗传算法实例-二进制编码-轮盘赌与代际演化.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-09.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法的编码与交叉-二进制-排列表示及可行解约束",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "遗传算法的编码与交叉：二进制、排列表示及可行解约束",
+      "summary": "本文围绕“遗传算法的编码与交叉：二进制、排列表示及可行解约束”对课程 ASR 进行高密度论文式重构，并围绕 binary encoding、permutation representation、single-point crossover、order crossover、position-based crossover 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论",
+      "bodyFile": "content-library/paper-combinatorial-optimization-遗传算法的编码与交叉-二进制-排列表示及可行解约束.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-10.html"
+      ],
+      "type": "html",
+      "order": 10,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法的变异与参数控制-位翻转-交换-逆序与多样性",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "遗传算法的变异与参数控制：位翻转、交换、逆序与多样性",
+      "summary": "本文围绕“遗传算法的变异与参数控制：位翻转、交换、逆序与多样性”对课程 ASR 进行高密度论文式重构，并围绕 bit-flip mutation、swap mutation、inversion mutation、scramble mutation、diversity 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的",
+      "bodyFile": "content-library/paper-combinatorial-optimization-遗传算法的变异与参数控制-位翻转-交换-逆序与多样性.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-11.html"
+      ],
+      "type": "html",
+      "order": 11,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-combinatorial-optimization/paper-combinatorial-optimization-遗传算法求解-tsp-排列染色体-适应度与算子组合",
+      "course": "paper-combinatorial-optimization",
+      "courseTitle": "如何用随机方法求解组合优化问题",
+      "module": "第 04 门课程",
+      "title": "遗传算法求解 TSP：排列染色体、适应度与算子组合",
+      "summary": "本文围绕“遗传算法求解 TSP：排列染色体、适应度与算子组合”对课程 ASR 进行高密度论文式重构，并围绕 genetic algorithm、TSP、permutation chromosome、selection、crossover 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校",
+      "bodyFile": "content-library/paper-combinatorial-optimization-遗传算法求解-tsp-排列染色体-适应度与算子组合.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/combinatorial-optimization/chapter-12.html"
+      ],
+      "type": "html",
+      "order": 12,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "如何用随机方法求解组合优化问题"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-统计学习概论-监督学习-无监督学习与泛化",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "统计学习概论：监督学习、无监督学习与泛化",
+      "summary": "本文围绕“统计学习概论：监督学习、无监督学习与泛化”对课程 ASR 进行高密度论文式重构，并围绕 statistical learning、supervised learning、unsupervised learning、classification、clustering 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可",
+      "bodyFile": "content-library/paper-statistical-learning-统计学习概论-监督学习-无监督学习与泛化.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-朴素贝叶斯-贝叶斯决策-条件独立与-map-分类",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "朴素贝叶斯：贝叶斯决策、条件独立与 MAP 分类",
+      "summary": "本文围绕“朴素贝叶斯：贝叶斯决策、条件独立与 MAP 分类”对课程 ASR 进行高密度论文式重构，并围绕 Naive Bayes、Bayes theorem、conditional independence、MAP classification 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边",
+      "bodyFile": "content-library/paper-statistical-learning-朴素贝叶斯-贝叶斯决策-条件独立与-map-分类.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-决策树基础-熵-条件熵与信息增益",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "决策树基础：熵、条件熵与信息增益",
+      "summary": "本文围绕“决策树基础：熵、条件熵与信息增益”对课程 ASR 进行高密度论文式重构，并围绕 decision tree、entropy、conditional entropy、information gain 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-statistical-learning-决策树基础-熵-条件熵与信息增益.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-id3-基于信息增益的递归决策树生成",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "ID3：基于信息增益的递归决策树生成",
+      "summary": "本文围绕“ID3：基于信息增益的递归决策树生成”对课程 ASR 进行高密度论文式重构，并围绕 ID3、information gain、recursive partition、leaf node 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-statistical-learning-id3-基于信息增益的递归决策树生成.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-c4-5-增益率-连续属性与-id3-的改进",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "C4.5：增益率、连续属性与 ID3 的改进",
+      "summary": "本文围绕“C4.5：增益率、连续属性与 ID3 的改进”对课程 ASR 进行高密度论文式重构，并围绕 C4.5、gain ratio、split information、continuous feature 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-statistical-learning-c4-5-增益率-连续属性与-id3-的改进.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-05.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-决策树的过拟合与剪枝-验证误差和结构正则化",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "决策树的过拟合与剪枝：验证误差和结构正则化",
+      "summary": "本文围绕“决策树的过拟合与剪枝：验证误差和结构正则化”对课程 ASR 进行高密度论文式重构，并围绕 decision tree pruning、overfitting、validation set、pre-pruning、post-pruning 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念",
+      "bodyFile": "content-library/paper-statistical-learning-决策树的过拟合与剪枝-验证误差和结构正则化.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-06.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-随机森林-bootstrap-随机特征与集成投票",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "随机森林：Bootstrap、随机特征与集成投票",
+      "summary": "本文围绕“随机森林：Bootstrap、随机特征与集成投票”对课程 ASR 进行高密度论文式重构，并围绕 Random Forest、bootstrap sampling、feature subsampling、bagging、ensemble voting 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR",
+      "bodyFile": "content-library/paper-statistical-learning-随机森林-bootstrap-随机特征与集成投票.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-07.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-k-近邻-距离度量-k-的选择与非参数分类",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "K 近邻：距离度量、K 的选择与非参数分类",
+      "summary": "本文围绕“K 近邻：距离度量、K 的选择与非参数分类”对课程 ASR 进行高密度论文式重构，并围绕 k-NN、Euclidean distance、Manhattan distance、model selection、nonparametric learning 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 AS",
+      "bodyFile": "content-library/paper-statistical-learning-k-近邻-距离度量-k-的选择与非参数分类.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-08.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-支持向量机概论-最大间隔-支持向量与超平面",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "支持向量机概论：最大间隔、支持向量与超平面",
+      "summary": "本文围绕“支持向量机概论：最大间隔、支持向量与超平面”对课程 ASR 进行高密度论文式重构，并围绕 SVM、maximum margin、support vector、hyperplane 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-statistical-learning-支持向量机概论-最大间隔-支持向量与超平面.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-09.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-线性可分-svm-硬间隔原始问题与规范化约束",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "线性可分 SVM：硬间隔原始问题与规范化约束",
+      "summary": "本文围绕“线性可分 SVM：硬间隔原始问题与规范化约束”对课程 ASR 进行高密度论文式重构，并围绕 hard-margin SVM、primal optimization、geometric margin、convex optimization 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念",
+      "bodyFile": "content-library/paper-statistical-learning-线性可分-svm-硬间隔原始问题与规范化约束.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-10.html"
+      ],
+      "type": "html",
+      "order": 10,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-svm-对偶问题-lagrange-乘子-kkt-与支持向量解",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "SVM 对偶问题：Lagrange 乘子、KKT 与支持向量解",
+      "summary": "本文围绕“SVM 对偶问题：Lagrange 乘子、KKT 与支持向量解”对课程 ASR 进行高密度论文式重构，并围绕 SVM dual、Lagrangian、KKT conditions、support vector 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-statistical-learning-svm-对偶问题-lagrange-乘子-kkt-与支持向量解.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-11.html"
+      ],
+      "type": "html",
+      "order": 11,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-statistical-learning/paper-statistical-learning-软间隔-svm-松弛变量-惩罚参数与不可分数据",
+      "course": "paper-statistical-learning",
+      "courseTitle": "统计学习方法是如何实现分类与聚类的",
+      "module": "第 05 门课程",
+      "title": "软间隔 SVM：松弛变量、惩罚参数与不可分数据",
+      "summary": "本文围绕“软间隔 SVM：松弛变量、惩罚参数与不可分数据”对课程 ASR 进行高密度论文式重构，并围绕 soft-margin SVM、slack variable、hinge loss、regularization parameter C 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进",
+      "bodyFile": "content-library/paper-statistical-learning-软间隔-svm-松弛变量-惩罚参数与不可分数据.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/statistical-learning/chapter-12.html"
+      ],
+      "type": "html",
+      "order": 12,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "统计学习方法是如何实现分类与聚类的"
+      ]
+    },
+    {
+      "id": "paper-llm-prep/paper-llm-prep-矩阵与向量运算-大语言模型中的线性代数基础",
+      "course": "paper-llm-prep",
+      "courseTitle": "大语言模型预备知识",
+      "module": "第 07 门课程",
+      "title": "矩阵与向量运算：大语言模型中的线性代数基础",
+      "summary": "本文围绕“矩阵与向量运算：大语言模型中的线性代数基础”对课程 ASR 进行高密度论文式重构，并围绕 matrix、vector、matrix multiplication、transpose、dot product 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-llm-prep-矩阵与向量运算-大语言模型中的线性代数基础.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/llm-prep/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "大语言模型预备知识"
+      ]
+    },
+    {
+      "id": "paper-llm-prep/paper-llm-prep-概率基础-随机变量-期望-方差-条件概率与分布",
+      "course": "paper-llm-prep",
+      "courseTitle": "大语言模型预备知识",
+      "module": "第 07 门课程",
+      "title": "概率基础：随机变量、期望、方差、条件概率与分布",
+      "summary": "本文围绕“概率基础：随机变量、期望、方差、条件概率与分布”对课程 ASR 进行高密度论文式重构，并围绕 random variable、expectation、variance、conditional probability、Bayes theorem 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别",
+      "bodyFile": "content-library/paper-llm-prep-概率基础-随机变量-期望-方差-条件概率与分布.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/llm-prep/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "大语言模型预备知识"
+      ]
+    },
+    {
+      "id": "paper-what-is-llm/paper-what-is-llm-大语言模型概论-自回归建模-预训练-规模化与能力边界",
+      "course": "paper-what-is-llm",
+      "courseTitle": "什么是大语言模型",
+      "module": "第 08 门课程",
+      "title": "大语言模型概论：自回归建模、预训练、规模化与能力边界",
+      "summary": "本文围绕“大语言模型概论：自回归建模、预训练、规模化与能力边界”对课程 ASR 进行高密度论文式重构，并围绕 large language model、autoregressive language model、pretraining、Transformer、token 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认",
+      "bodyFile": "content-library/paper-what-is-llm-大语言模型概论-自回归建模-预训练-规模化与能力边界.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/what-is-llm/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "什么是大语言模型"
+      ]
+    },
+    {
+      "id": "paper-reinforcement-learning/paper-reinforcement-learning-强化学习与策略梯度-状态-行动-回报与-reinforce",
+      "course": "paper-reinforcement-learning",
+      "courseTitle": "强化学习方法",
+      "module": "第 09 门课程",
+      "title": "强化学习与策略梯度：状态、行动、回报与 REINFORCE",
+      "summary": "本文围绕“强化学习与策略梯度：状态、行动、回报与 REINFORCE”对课程 ASR 进行高密度论文式重构，并围绕 reinforcement learning、MDP、policy、return、policy gradient 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-reinforcement-learning-强化学习与策略梯度-状态-行动-回报与-reinforce.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/reinforcement-learning/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "强化学习方法"
+      ]
+    },
+    {
+      "id": "paper-reinforcement-learning/paper-reinforcement-learning-actor-critic-策略网络-价值基线与优势函数",
+      "course": "paper-reinforcement-learning",
+      "courseTitle": "强化学习方法",
+      "module": "第 09 门课程",
+      "title": "Actor–Critic：策略网络、价值基线与优势函数",
+      "summary": "本文围绕“Actor–Critic：策略网络、价值基线与优势函数”对课程 ASR 进行高密度论文式重构，并围绕 Actor-Critic、critic、baseline、advantage、TD error 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-reinforcement-learning-actor-critic-策略网络-价值基线与优势函数.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/reinforcement-learning/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "强化学习方法"
+      ]
+    },
+    {
+      "id": "paper-reinforcement-learning/paper-reinforcement-learning-ppo-近端策略优化-重要性比率与裁剪目标",
+      "course": "paper-reinforcement-learning",
+      "courseTitle": "强化学习方法",
+      "module": "第 09 门课程",
+      "title": "PPO：近端策略优化、重要性比率与裁剪目标",
+      "summary": "本文围绕“PPO：近端策略优化、重要性比率与裁剪目标”对课程 ASR 进行高密度论文式重构，并围绕 PPO、policy ratio、clipped surrogate objective、on-policy、advantage estimation 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和",
+      "bodyFile": "content-library/paper-reinforcement-learning-ppo-近端策略优化-重要性比率与裁剪目标.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/reinforcement-learning/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "强化学习方法"
+      ]
+    },
+    {
+      "id": "paper-rlhf/paper-rlhf-rlhf-监督微调-奖励模型与-ppo-对齐",
+      "course": "paper-rlhf",
+      "courseTitle": "基于人类反馈的强化学习方法",
+      "module": "第 10 门课程",
+      "title": "RLHF：监督微调、奖励模型与 PPO 对齐",
+      "summary": "本文围绕“RLHF：监督微调、奖励模型与 PPO 对齐”对课程 ASR 进行高密度论文式重构，并围绕 RLHF、SFT、reward model、preference data、PPO 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-rlhf-rlhf-监督微调-奖励模型与-ppo-对齐.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/rlhf/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "基于人类反馈的强化学习方法"
+      ]
+    },
+    {
+      "id": "paper-bert/paper-bert-bert-预训练-双向-transformer-encoder-mlm-与-nsp",
+      "course": "paper-bert",
+      "courseTitle": "BERT 模型",
+      "module": "第 11 门课程",
+      "title": "BERT 预训练：双向 Transformer Encoder、MLM 与 NSP",
+      "summary": "本文围绕“BERT 预训练：双向 Transformer Encoder、MLM 与 NSP”对课程 ASR 进行高密度论文式重构，并围绕 BERT、Transformer Encoder、MLM、NSP、\\[CLS\\] 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正。",
+      "bodyFile": "content-library/paper-bert-bert-预训练-双向-transformer-encoder-mlm-与-nsp.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/bert/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "BERT 模型"
+      ]
+    },
+    {
+      "id": "paper-bert/paper-bert-bert-微调-句对分类-序列标注与抽取式问答",
+      "course": "paper-bert",
+      "courseTitle": "BERT 模型",
+      "module": "第 11 门课程",
+      "title": "BERT 微调：句对分类、序列标注与抽取式问答",
+      "summary": "本文围绕“BERT 微调：句对分类、序列标注与抽取式问答”对课程 ASR 进行高密度论文式重构，并围绕 BERT fine-tuning、sequence classification、token classification、extractive QA、\\[CLS\\] 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认",
+      "bodyFile": "content-library/paper-bert-bert-微调-句对分类-序列标注与抽取式问答.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/bert/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "BERT 模型"
+      ]
+    },
+    {
+      "id": "paper-gpt/paper-gpt-gpt-1-生成式预训练与任务微调",
+      "course": "paper-gpt",
+      "courseTitle": "GPT 模型",
+      "module": "第 12 门课程",
+      "title": "GPT-1：生成式预训练与任务微调",
+      "summary": "本文围绕“GPT-1：生成式预训练与任务微调”对课程 ASR 进行高密度论文式重构，并围绕 GPT-1、Generative Pre-Training、Transformer Decoder、unsupervised pretraining、supervised fine-tuning 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织",
+      "bodyFile": "content-library/paper-gpt-gpt-1-生成式预训练与任务微调.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/gpt/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "GPT 模型"
+      ]
+    },
+    {
+      "id": "paper-gpt/paper-gpt-gpt-2-规模扩展-webtext-与零样本任务迁移",
+      "course": "paper-gpt",
+      "courseTitle": "GPT 模型",
+      "module": "第 12 门课程",
+      "title": "GPT-2：规模扩展、WebText 与零样本任务迁移",
+      "summary": "本文围绕“GPT-2：规模扩展、WebText 与零样本任务迁移”对课程 ASR 进行高密度论文式重构，并围绕 GPT-2、WebText、zero-shot、autoregressive language modeling、scaling 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进",
+      "bodyFile": "content-library/paper-gpt-gpt-2-规模扩展-webtext-与零样本任务迁移.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/gpt/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "GPT 模型"
+      ]
+    },
+    {
+      "id": "paper-gpt/paper-gpt-gpt-3-175b-参数-上下文学习与-zero-one-few-shot",
+      "course": "paper-gpt",
+      "courseTitle": "GPT 模型",
+      "module": "第 12 门课程",
+      "title": "GPT-3：175B 参数、上下文学习与 Zero/One/Few-shot",
+      "summary": "本文围绕“GPT-3：175B 参数、上下文学习与 Zero/One/Few-shot”对课程 ASR 进行高密度论文式重构，并围绕 GPT-3、in-context learning、few-shot、one-shot、zero-shot 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进",
+      "bodyFile": "content-library/paper-gpt-gpt-3-175b-参数-上下文学习与-zero-one-few-shot.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/gpt/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "GPT 模型"
+      ]
+    },
+    {
+      "id": "paper-gpt/paper-gpt-chatgpt-与指令对齐-从-gpt-预训练到-instructgpt-rlhf",
+      "course": "paper-gpt",
+      "courseTitle": "GPT 模型",
+      "module": "第 12 门课程",
+      "title": "ChatGPT 与指令对齐：从 GPT 预训练到 InstructGPT/RLHF",
+      "summary": "本文围绕“ChatGPT 与指令对齐：从 GPT 预训练到 InstructGPT/RLHF”对课程 ASR 进行高密度论文式重构，并围绕 ChatGPT、InstructGPT、instruction tuning、RLHF、human preference 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR",
+      "bodyFile": "content-library/paper-gpt-chatgpt-与指令对齐-从-gpt-预训练到-instructgpt-rlhf.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/gpt/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "GPT 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-序列到序列建模-encoder-decoder-与-transformer-的提出",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "序列到序列建模：Encoder–Decoder 与 Transformer 的提出",
+      "summary": "本文围绕“序列到序列建模：Encoder–Decoder 与 Transformer 的提出”对课程 ASR 进行高密度论文式重构，并围绕 sequence-to-sequence、encoder-decoder、machine translation、Transformer 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对",
+      "bodyFile": "content-library/paper-transformer-序列到序列建模-encoder-decoder-与-transformer-的提出.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-01.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-注意力与自注意力-query-key-value-与-scaled-dot-product-attention",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "注意力与自注意力：Query、Key、Value 与 Scaled Dot-Product Attention",
+      "summary": "本文围绕“注意力与自注意力：Query、Key、Value 与 Scaled Dot-Product Attention”对课程 ASR 进行高密度论文式重构，并围绕 attention、self-attention、Query、Key、Value 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概",
+      "bodyFile": "content-library/paper-transformer-注意力与自注意力-query-key-value-与-scaled-dot-product-attention.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-02.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-多头注意力-并行子空间-投影矩阵与信息聚合",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "多头注意力：并行子空间、投影矩阵与信息聚合",
+      "summary": "本文围绕“多头注意力：并行子空间、投影矩阵与信息聚合”对课程 ASR 进行高密度论文式重构，并围绕 multi-head attention、attention head、projection matrix、concatenation 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR 误识别和概念边界进行校正",
+      "bodyFile": "content-library/paper-transformer-多头注意力-并行子空间-投影矩阵与信息聚合.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-03.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-残差连接与-layer-normalization-深层-transformer-的稳定训练",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "残差连接与 Layer Normalization：深层 Transformer 的稳定训练",
+      "summary": "本文围绕“残差连接与 Layer Normalization：深层 Transformer 的稳定训练”对课程 ASR 进行高密度论文式重构，并围绕 residual connection、LayerNorm、Add & Norm、gradient flow 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 ASR",
+      "bodyFile": "content-library/paper-transformer-残差连接与-layer-normalization-深层-transformer-的稳定训练.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-04.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-transformer-encoder-embedding-position-self-attention-与-ffn",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "Transformer Encoder：Embedding、Position、Self-Attention 与 FFN",
+      "summary": "本文围绕“Transformer Encoder：Embedding、Position、Self-Attention 与 FFN”对课程 ASR 进行高密度论文式重构，并围绕 Transformer Encoder、embedding、positional encoding、self-attention、feed-forward network 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、",
+      "bodyFile": "content-library/paper-transformer-transformer-encoder-embedding-position-self-attention-与-ffn.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-05.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-transformer-decoder-masked-self-attention-cross-attention-与自回归生成",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "Transformer Decoder：Masked Self-Attention、Cross-Attention 与自回归生成",
+      "summary": "本文围绕“Transformer Decoder：Masked Self-Attention、Cross-Attention 与自回归生成”对课程 ASR 进行高密度论文式重构，并围绕 Transformer Decoder、causal mask、cross-attention、autoregressive decoding、softmax 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形",
+      "bodyFile": "content-library/paper-transformer-transformer-decoder-masked-self-attention-cross-attention-与自回归生成.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-06.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-绝对位置编码-可学习位置向量与正弦-余弦编码",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "绝对位置编码：可学习位置向量与正弦—余弦编码",
+      "summary": "本文围绕“绝对位置编码：可学习位置向量与正弦—余弦编码”对课程 ASR 进行高密度论文式重构，并围绕 positional encoding、learned position embedding、sinusoidal encoding、sequence order 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理论或实验依据、局限与后续发展重新组织知识，并对可确认的 A",
+      "bodyFile": "content-library/paper-transformer-绝对位置编码-可学习位置向量与正弦-余弦编码.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-07.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "paper-transformer/paper-transformer-相对位置表示-relation-aware-self-attention-与距离建模",
+      "course": "paper-transformer",
+      "courseTitle": "Transformer 模型",
+      "module": "第 13 门课程",
+      "title": "相对位置表示：Relation-aware Self-Attention 与距离建模",
+      "summary": "本文围绕“相对位置表示：Relation-aware Self-Attention 与距离建模”对课程 ASR 进行高密度论文式重构，并围绕 relative position representation、relation-aware attention、relative distance、self-attention 检索英文原论文、官方研究页面和高校课程资料。文章不保留课堂逐句口述，而以问题背景、技术难点、形式化定义、核心机制、理",
+      "bodyFile": "content-library/paper-transformer-相对位置表示-relation-aware-self-attention-与距离建模.md",
+      "sourceFiles": [
+        "../../Downloads/AI课程_论文式HTML知识库_13门88讲/AI课程_论文式HTML知识库/courses/transformer/chapter-08.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "AI 课程",
+        "论文式讲义",
+        "Transformer 模型"
+      ]
+    },
+    {
+      "id": "research-articles/research-articles-行动胜于言辞-面向生成式推荐的万亿参数序列转导器-openai-style-research-documentation",
+      "course": "research-articles",
+      "courseTitle": "技术研究与长文",
+      "module": "专题文章",
+      "title": "行动胜于言辞：面向生成式推荐的万亿参数序列转导器 — OpenAI-style research documentation",
+      "summary": "大规模推荐系统的特征在于：它们依赖高基数（high-cardinality）的异构特征，并且需要每天处理数百亿次用户行为。尽管工业界的大多数 Deep Learning Recommendation Models（深度学习推荐模型，DLRMs）使用包含数千个特征的海量数据进行训练，但其性能通常无法随计算量的增加而扩展。受 Transformers 在语言与视觉领域取得成功的启发，我们重新审视推荐系统中的基础设计选择。",
+      "bodyFile": "content-library/research-articles-行动胜于言辞-面向生成式推荐的万亿参数序列转导器-openai-style-research-documentation.md",
+      "sourceFiles": [
+        "../../Documents/2402.17152v3_zh-CN/2402.17152v3_zh-CN_openai.html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-articles/research-articles-朱松纯两万字演讲-ai热潮的回望与反思-思想自主-未来展望",
+      "course": "research-articles",
+      "courseTitle": "技术研究与长文",
+      "module": "专题文章",
+      "title": "朱松纯两万字演讲：AI热潮的回望与反思、思想自主、未来展望",
+      "summary": "",
+      "bodyFile": "content-library/research-articles-朱松纯两万字演讲-ai热潮的回望与反思-思想自主-未来展望.md",
+      "sourceFiles": [
+        "../../Documents/朱松纯两万字演讲：AI热潮的回望与反思、思想自主、未来展望_openai_images_fixed.html"
+      ],
+      "type": "html",
+      "order": 2,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "ai-field-notes/ai-field-notes-ai-field-notes-ai-field-notes",
+      "course": "ai-field-notes",
+      "courseTitle": "AI Field Notes",
+      "module": "模型与 Agent 工程",
+      "title": "AI Field Notes · AI Field Notes",
+      "summary": "AI 研究档案AI research archive A quiet, bilingual reading room for technical essays on reasoning models, coding agents, and the systems around them.一个安静的双语阅读空间，整理关于推理模型、代码智能体及其系统环境的技术长文。",
+      "bodyFile": "content-library/ai-field-notes-ai-field-notes-ai-field-notes.md",
+      "sourceFiles": [
+        "../../Documents/anthropic-ai-field-notes/index.html"
+      ],
+      "type": "html",
+      "order": 3,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "ai-field-notes/ai-field-notes-controlling-reasoning-effort-in-llms-ai-field-notes",
+      "course": "ai-field-notes",
+      "courseTitle": "AI Field Notes",
+      "module": "模型与 Agent 工程",
+      "title": "Controlling Reasoning Effort in LLMs · AI Field Notes",
+      "summary": "It has been almost two years since OpenAI released o1, a model that popularized the idea of LLM-based reasoning models. DeepSeek-R1 followed about four months later, together with details of a reinforcement learning with",
+      "bodyFile": "content-library/ai-field-notes-controlling-reasoning-effort-in-llms-ai-field-notes.md",
+      "sourceFiles": [
+        "../../Documents/anthropic-ai-field-notes/pages/controlling-reasoning-effort.html"
+      ],
+      "type": "html",
+      "order": 4,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "ai-field-notes/ai-field-notes-gpt-5-6-model-family-and-reasoning-effort-architecture-ai-field-notes",
+      "course": "ai-field-notes",
+      "courseTitle": "AI Field Notes",
+      "module": "模型与 Agent 工程",
+      "title": "GPT-5.6 Model Family and Reasoning-Effort Architecture · AI Field Notes",
+      "summary": "A public-evidence deep research report on Sol, Terra, Luna, reasoning effort, Pro mode, and Ultra/multi-agent execution",
+      "bodyFile": "content-library/ai-field-notes-gpt-5-6-model-family-and-reasoning-effort-architecture-ai-field-notes.md",
+      "sourceFiles": [
+        "../../Documents/anthropic-ai-field-notes/pages/gpt-56-reasoning-effort.html"
+      ],
+      "type": "html",
+      "order": 5,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "ai-field-notes/ai-field-notes-skill-issue-autoresearch-and-the-loopy-era-of-ai-ai-field-notes",
+      "course": "ai-field-notes",
+      "courseTitle": "AI Field Notes",
+      "module": "模型与 Agent 工程",
+      "title": "Skill Issue: AutoResearch and the Loopy Era of AI · AI Field Notes",
+      "summary": "| Field 字段 | Value 内容 | | --- | --- | | Video ID | kwSVtQ7dziU | | Duration 时长 | 01:06:31 | | Chapters 章节 | 13 | | Bilingual semantic paragraphs 双语语义段落 | 134 | | Transcript source 字幕来源 | User-provided English auto-genera",
+      "bodyFile": "content-library/ai-field-notes-skill-issue-autoresearch-and-the-loopy-era-of-ai-ai-field-notes.md",
+      "sourceFiles": [
+        "../../Documents/anthropic-ai-field-notes/pages/skill-issue-autoresearch.html"
+      ],
+      "type": "html",
+      "order": 6,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "ai-field-notes/ai-field-notes-from-vibe-coding-to-agentic-engineering-ai-field-notes",
+      "course": "ai-field-notes",
+      "courseTitle": "AI Field Notes",
+      "module": "模型与 Agent 工程",
+      "title": "From Vibe Coding to Agentic Engineering · AI Field Notes",
+      "summary": "| Field 字段 | Value 内容 | | --- | --- | | Video ID | 96jN2OCOfLs | | Duration 时长 | 00:29:45 | | Chapters 章节 | 9 | | Bilingual semantic paragraphs 双语语义段落 | 59 | | Transcript source 字幕来源 | User-provided English auto-generate",
+      "bodyFile": "content-library/ai-field-notes-from-vibe-coding-to-agentic-engineering-ai-field-notes.md",
+      "sourceFiles": [
+        "../../Documents/anthropic-ai-field-notes/pages/vibe-coding-to-agentic-engineering.html"
+      ],
+      "type": "html",
+      "order": 7,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "ai-field-notes/ai-field-notes-controlling-reasoning-effort-in-llms-ai-field-notes-2",
+      "course": "ai-field-notes",
+      "courseTitle": "AI Field Notes",
+      "module": "模型与 Agent 工程",
+      "title": "Controlling Reasoning Effort in LLMs · AI Field Notes",
+      "summary": "It has been almost two years since OpenAI released o1, a model that popularized the idea of LLM-based reasoning models. DeepSeek-R1 followed about four months later, together with details of a reinforcement learning with",
+      "bodyFile": "content-library/ai-field-notes-controlling-reasoning-effort-in-llms-ai-field-notes-2.md",
+      "sourceFiles": [
+        "../../Documents/Controlling_Reasoning_Effort_Bilingual_Package_Obsidian_Updated/Controlling_Reasoning_Effort_in_LLMs_Bilingual_EN_ZH_Anthropic.html"
+      ],
+      "type": "html",
+      "order": 8,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-articles/research-articles-grok-build-架构分析-xai-org-grok-build",
+      "course": "research-articles",
+      "courseTitle": "技术研究与长文",
+      "module": "专题文章",
+      "title": "Grok Build 架构分析 · xai-org/grok-build",
+      "summary": "Grok Build（命令行名 grok）是 SpaceXAI 的终端式 AI 编程 Agent，以全屏 TUI 运行，可理解代码库、编辑文件、执行 shell、联网检索并管理长任务。其形态有三种：",
+      "bodyFile": "content-library/research-articles-grok-build-架构分析-xai-org-grok-build.md",
+      "sourceFiles": [
+        "../../Documents/grok-build-analysis.html"
+      ],
+      "type": "html",
+      "order": 9,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-loop入门",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "Loop入门",
+      "summary": "这是Claude官博发的一篇文章，介绍 Claude Code 里的loop是怎么玩的。",
+      "bodyFile": "content-library/research-notes-loop入门.md",
+      "sourceFiles": [
+        "../../Documents/md/# Loop入门.md"
+      ],
+      "type": "markdown",
+      "order": 10,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-chatgpt-images-2-0-gpt-image-2-技术调研报告",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "ChatGPT Images 2.0 / GPT Image 2 技术调研报告",
+      "summary": "版本日期：2026-07-10 研究对象：ChatGPT Images 2.0 产品能力、API 模型 gpt-image-2，以及其与 OpenAI 原生多模态图像生成技术路线的关系",
+      "bodyFile": "content-library/research-notes-chatgpt-images-2-0-gpt-image-2-技术调研报告.md",
+      "sourceFiles": [
+        "../../Documents/md/chatgpt_images_2_technical_report_zh.md"
+      ],
+      "type": "markdown",
+      "order": 11,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-面向百万级上下文的开源与开放模型长上下文能力调研评估",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "面向百万级上下文的开源与开放模型长上下文能力调研评估",
+      "summary": "本文将用户给出的对象解释为：DSV4 = DeepSeek-V4，MIMOv2.5 = 小米 MiMo-V2.5 系列，GLM5.2 = GLM-5.2，Kimi = Moonshot 的长上下文技术栈与产品化路线，K2.6 = Kimi K2.6 公共模型/API 版本。其中，只有 DeepSeek-V4、MiMo-V2.5、GLM-5.2 在公开官方材料中明确宣称 1M 上下文；Kimi 的公开研究路线已经走到可扩展到 1M 乃至",
+      "bodyFile": "content-library/research-notes-面向百万级上下文的开源与开放模型长上下文能力调研评估.md",
+      "sourceFiles": [
+        "../../Documents/md/deep-research-report (1).md"
+      ],
+      "type": "markdown",
+      "order": 12,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-图像生成技术的迭代与现状综述报告",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "图像生成技术的迭代与现状综述报告",
+      "summary": "过去五年，图像生成（image generation）的主线演化非常清晰：从 离散 token 自回归（autoregressive over discrete image tokens） 的 DALL·E/Parti 路线，转向 像素空间扩散（pixel-space diffusion） 的 GLIDE/Imagen，再转向 潜空间扩散（latent diffusion） 的 Stable Diffusion，随后进入 Diffusi",
+      "bodyFile": "content-library/research-notes-图像生成技术的迭代与现状综述报告.md",
+      "sourceFiles": [
+        "../../Documents/md/deep-research-report.md"
+      ],
+      "type": "markdown",
+      "order": 13,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-grant-sanderson-ai-and-the-future-of-math-qa-notes",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "Grant Sanderson: AI and the Future of Math - QA Notes",
+      "summary": "Source: Dwarkesh Podcast, \"Grant Sanderson - AI and the future of math\", transcript page: https://www.dwarkesh.com/p/grant-sanderson-2",
+      "bodyFile": "content-library/research-notes-grant-sanderson-ai-and-the-future-of-math-qa-notes.md",
+      "sourceFiles": [
+        "../../Documents/md/grant-sanderson-ai-math-qa.md"
+      ],
+      "type": "markdown",
+      "order": 14,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-loop-engineering-循环工程-讲解整理",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "Loop Engineering（循环工程）讲解整理",
+      "summary": "来源：Loop Engineering explained in 8min 字幕翻译整理 随着大语言模型应用的发展，工程方法不断演进。早期我们关注的是 Prompt Engineering（提示词工程），后来出现了 Harness Engineering（支架/编排工程），现在又出现了 Loop Engineering（循环工程）。",
+      "bodyFile": "content-library/research-notes-loop-engineering-循环工程-讲解整理.md",
+      "sourceFiles": [
+        "../../Documents/md/Loop_Engineering_中文整理.md"
+      ],
+      "type": "markdown",
+      "order": 15,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-从-stable-diffusion-到-gpt-3-一次关于生成模型-rnn-与推理模型的技术梳理",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "从 Stable Diffusion 到 GPT-3：一次关于生成模型、RNN 与推理模型的技术梳理",
+      "summary": "本文整理本次 session 中讨论的核心知识点，覆盖 Stable Diffusion 的训练/推理机制、RNN/LSTM/GRU 与 Transformer 的差异、中文 RNN 语言模型训练、GPT 系列演进、GPT-3 的 scaling 与 RLHF 边界，以及 DeepSeek-R1/R1-Zero 与 OpenAI o1 的关系。",
+      "bodyFile": "content-library/research-notes-从-stable-diffusion-到-gpt-3-一次关于生成模型-rnn-与推理模型的技术梳理.md",
+      "sourceFiles": [
+        "../../Documents/md/session_core_knowledge_tech_blog.md"
+      ],
+      "type": "markdown",
+      "order": 16,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-gpt-现状-state-of-gpt",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "GPT 现状（State of GPT）",
+      "summary": "演讲者： Andrej Karpathy（安德烈·卡帕西） 来源： Microsoft Build 2023 — BRK216HFS",
+      "bodyFile": "content-library/research-notes-gpt-现状-state-of-gpt.md",
+      "sourceFiles": [
+        "../../Documents/md/State_of_GPT_简体中文专业版.md"
+      ],
+      "type": "markdown",
+      "order": 17,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "model-evolution/model-evolution-22580-从-gpt2-到-kimi3-的演进",
+      "course": "model-evolution",
+      "courseTitle": "模型演进与架构",
+      "module": "GPT-2 到 Kimi3",
+      "title": "22580：从 GPT2 到 Kimi3 的演进",
+      "summary": "原文作者：ali (@waterloointern) · 原文发布时间：Jul 27, 2026 · 查看 X 原文",
+      "bodyFile": "content-library/model-evolution-22580-从-gpt2-到-kimi3-的演进.md",
+      "sourceFiles": [
+        "../../Documents/x-waterloo-intern 2/x-waterloo-intern/22580-from-gpt2-to-kimik3.zh-CN.md"
+      ],
+      "type": "markdown",
+      "order": 18,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    },
+    {
+      "id": "research-articles/research-articles-claude-code-101-系列字幕笔记-英中对照",
+      "course": "research-articles",
+      "courseTitle": "技术研究与长文",
+      "module": "专题文章",
+      "title": "Claude Code 101 系列字幕笔记（英中对照）",
+      "summary": "来源：Anthropic 官方 YouTube 播放列表 Claude Code 101（共 9 集，其中第 1 集 \"What is Claude Code?\" 因版权被下架，未收录）。 每节按顺序给出：英文摘要一段，中文摘要一段，交替排列。技术术语与专有名词保留英文。",
+      "bodyFile": "content-library/research-articles-claude-code-101-系列字幕笔记-英中对照.md",
+      "sourceFiles": [
+        "../../Documents/xwechat_files/wxid_fvazoj9hx31j22_ef78/msg/file/2026-08/claude-code-101-notes.md"
+      ],
+      "type": "markdown",
+      "order": 19,
+      "tags": [
+        "技术研究",
+        "中文整理"
+      ]
+    }
+  ]
+}

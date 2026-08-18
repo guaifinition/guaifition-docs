@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 920 390" role="img" aria-label="AlphaGo总体技术架构图">
+              <defs>
+                <marker id="arr1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5f7285"></path></marker>
+                
+              </defs>
+              <rect x="24" y="35" width="150" height="74" rx="7" class="bx"></rect>
+              <text x="99" y="65" text-anchor="middle" class="tx">专家棋谱</text>
+              <text x="99" y="88" text-anchor="middle" class="sm">KGS 6–9 dan</text>
+
+              <rect x="228" y="25" width="170" height="94" rx="7" class="sl"></rect>
+              <text x="313" y="56" text-anchor="middle" class="tx">SL Policy pσ</text>
+              <text x="313" y="80" text-anchor="middle" class="sm">预测专家落子</text>
+              <text x="313" y="100" text-anchor="middle" class="sm">搜索先验 P(s,a)</text>
+
+              <rect x="456" y="25" width="170" height="94" rx="7" class="rl"></rect>
+              <text x="541" y="56" text-anchor="middle" class="tx">RL Policy pρ</text>
+              <text x="541" y="80" text-anchor="middle" class="sm">Self-play + Policy Gradient</text>
+              <text x="541" y="100" text-anchor="middle" class="sm">直接优化胜率</text>
+
+              <rect x="690" y="25" width="180" height="94" rx="7" class="va"></rect>
+              <text x="780" y="56" text-anchor="middle" class="tx">Value Network vθ</text>
+              <text x="780" y="80" text-anchor="middle" class="sm">预测长期比赛结果</text>
+              <text x="780" y="100" text-anchor="middle" class="sm">叶节点估值</text>
+
+              <rect x="98" y="190" width="180" height="80" rx="7" class="bx"></rect>
+              <text x="188" y="221" text-anchor="middle" class="tx">Rollout Policy pπ</text>
+              <text x="188" y="246" text-anchor="middle" class="sm">线性 softmax · 低延迟</text>
+
+              <rect x="362" y="180" width="250" height="100" rx="7" class="mc"></rect>
+              <text x="487" y="214" text-anchor="middle" class="tx">APV-MCTS</text>
+              <text x="487" y="239" text-anchor="middle" class="sm">Selection · Expansion · Evaluation · Backup</text>
+              <text x="487" y="260" text-anchor="middle" class="sm">Policy Prior + Value + Rollout</text>
+
+              <rect x="700" y="190" width="170" height="80" rx="7" class="bx"></rect>
+              <text x="785" y="221" text-anchor="middle" class="tx">最终落子</text>
+              <text x="785" y="246" text-anchor="middle" class="sm">根节点最大访问次数</text>
+
+              <path d="M174 72 L228 72" class="ar"></path>
+              <path d="M398 72 L456 72" class="ar"></path>
+              <path d="M626 72 L690 72" class="ar"></path>
+              <path d="M313 119 C313 150 430 150 450 180" class="ar"></path>
+              <path d="M780 119 C780 150 610 150 570 180" class="ar"></path>
+              <path d="M278 230 L362 230" class="ar"></path>
+              <path d="M612 230 L700 230" class="ar"></path>
+              <text x="431" y="331" text-anchor="middle" class="sm">训练阶段：专家模仿 → 自我博弈策略改进 → 自我博弈价值学习</text>
+              <text x="431" y="354" text-anchor="middle" class="sm">实战阶段：SL policy / value / rollout 共同服务于 MCTS</text>
+            </svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 830 390" role="img" aria-label="策略模型专家落子预测准确率比较图">
+              <line x1="100" y1="310" x2="770" y2="310" stroke="#68798b" stroke-width="1.5"></line>
+              <line x1="100" y1="50" x2="100" y2="310" stroke="#68798b" stroke-width="1.5"></line>
+              <g font-family="Microsoft YaHei" font-size="12" fill="#5e6b78">
+                <text x="84" y="315" text-anchor="end">0</text><text x="84" y="272" text-anchor="end">10</text>
+                <text x="84" y="229" text-anchor="end">20</text><text x="84" y="186" text-anchor="end">30</text>
+                <text x="84" y="143" text-anchor="end">40</text><text x="84" y="100" text-anchor="end">50</text>
+                <text x="84" y="57" text-anchor="end">60%</text>
+              </g>
+              <g stroke="#e3e8ed">
+                <line x1="100" y1="267" x2="770" y2="267"></line><line x1="100" y1="224" x2="770" y2="224"></line>
+                <line x1="100" y1="181" x2="770" y2="181"></line><line x1="100" y1="138" x2="770" y2="138"></line>
+                <line x1="100" y1="95" x2="770" y2="95"></line><line x1="100" y1="52" x2="770" y2="52"></line>
+              </g>
+              <rect x="145" y="206" width="95" height="104" fill="#b8c7d6"></rect><text x="192" y="195" text-anchor="middle" font-family="Georgia" font-size="16" fill="#334a5f">24.2%</text>
+              <rect x="300" y="119" width="95" height="191" fill="#92abc1"></rect><text x="347" y="108" text-anchor="middle" font-family="Georgia" font-size="16" fill="#334a5f">44.4%</text>
+              <rect x="455" y="71" width="95" height="239" fill="#5f8db3"></rect><text x="502" y="60" text-anchor="middle" font-family="Georgia" font-size="16" fill="#234d73">55.7%</text>
+              <rect x="610" y="65" width="95" height="245" fill="#315f87"></rect><text x="657" y="54" text-anchor="middle" font-family="Georgia" font-size="16" fill="#234d73">57.0%</text>
+              <g font-family="Microsoft YaHei" font-size="12.5" fill="#35485b">
+                <text x="192" y="337" text-anchor="middle">Rollout policy</text>
+                <text x="347" y="337" text-anchor="middle">此前最佳结果</text>
+                <text x="502" y="337" text-anchor="middle">SL：原始棋盘+历史</text>
+                <text x="657" y="337" text-anchor="middle">SL：完整特征</text>
+              </g>
+            </svg>

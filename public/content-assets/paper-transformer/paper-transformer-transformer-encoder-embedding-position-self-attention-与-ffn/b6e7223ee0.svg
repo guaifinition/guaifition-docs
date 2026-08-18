@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 820 280" role="img" aria-label="核心概念关系图">
+    <defs><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#66798b"></path></marker></defs>
+    <circle cx="410" cy="68" r="58" fill="#edf4fa" stroke="#547da1"></circle><circle cx="245" cy="205" r="58" fill="#edf7f2" stroke="#53806e"></circle><circle cx="575" cy="205" r="58" fill="#f7f1ea" stroke="#8c6b49"></circle>
+    <text x="410" y="64" text-anchor="middle" font-family="Microsoft YaHei" font-size="14" fill="#294b69">Transformer Encoder</text><text x="410" y="85" text-anchor="middle" font-family="Microsoft YaHei" font-size="12" fill="#66717c">问题表示 / 先验</text>
+    <text x="245" y="201" text-anchor="middle" font-family="Microsoft YaHei" font-size="14" fill="#315b4b">embedding</text><text x="245" y="222" text-anchor="middle" font-family="Microsoft YaHei" font-size="12" fill="#66717c">学习 / 搜索 / 优化</text>
+    <text x="575" y="201" text-anchor="middle" font-family="Microsoft YaHei" font-size="14" fill="#6a5036">positional encoding</text><text x="575" y="222" text-anchor="middle" font-family="Microsoft YaHei" font-size="12" fill="#66717c">评价 / 决策</text>
+    <line x1="376" y1="115" x2="284" y2="164" stroke="#66798b" stroke-width="1.8" marker-end="url(#a2)"></line><line x1="444" y1="115" x2="536" y2="164" stroke="#66798b" stroke-width="1.8" marker-end="url(#a2)"></line><line x1="304" y1="205" x2="516" y2="205" stroke="#66798b" stroke-width="1.8" marker-end="url(#a2)"></line>
+    </svg>

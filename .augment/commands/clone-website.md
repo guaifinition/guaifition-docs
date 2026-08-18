@@ -154,6 +154,7 @@ Navigate to the target URL with browser MCP.
 - Take **full-page screenshots** at desktop (1440px) and mobile (390px) viewports
 - Save to that page's screenshot root (`docs/design-references/<site-key>/<page-key>/`) with descriptive names
 - These are your master reference — builders will receive section-specific crops/screenshots later
+- Some browser backends repeat `position: fixed` chrome in `fullPage` captures while the underlying document is correct. Keep the required full-page artifact, but also capture viewport screenshots and scrolled section crops for visual comparison; do not infer duplicated page DOM from repeated fixed layers.
 
 ### Global Extraction
 Extract these from the page before doing anything else:

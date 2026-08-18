@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+<defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#4b5563"/></marker></defs>
+<rect width="100%" height="100%" fill="#fbfbfc"/>
+<text x="50" y="50" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="30" font-weight="700" fill="#111827">Why capability is jagged</text>
+<text x="50" y="80" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="17" fill="#4b5563">Tasks with objective feedback are easier to optimize than tasks with ambiguous or delayed evaluation.</text>
+<line x1="290" y1="207.5" x2="365" y2="142.5" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="327.5" y="167.0" text-anchor="middle" font-family="Cascadia Code, monospace" font-size="13" fill="#374151">measurable</text>
+<line x1="180.0" y1="270" x2="475.0" y2="245" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="327.5" y="249.5" text-anchor="middle" font-family="Cascadia Code, monospace" font-size="13" fill="#374151">ambiguous</text>
+<line x1="585" y1="142.5" x2="700" y2="142.5" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="642.5" y="134.5" text-anchor="middle" font-family="Cascadia Code, monospace" font-size="13" fill="#374151">optimize</text>
+<line x1="585" y1="307.5" x2="700" y2="307.5" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="642.5" y="299.5" text-anchor="middle" font-family="Cascadia Code, monospace" font-size="13" fill="#374151">limited signal</text>
+<rect x="70" y="145" width="220" height="125" rx="14" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+<text x="180.0" y="181" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="20" font-weight="700" fill="#111827">Task distribution</text>
+<text x="180.0" y="207" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">Training data,</text>
+<text x="180.0" y="227" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">interfaces and</text>
+<text x="180.0" y="247" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">prior examples</text>
+<rect x="365" y="80" width="220" height="125" rx="14" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+<text x="475.0" y="116" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="20" font-weight="700" fill="#111827">High verifiability</text>
+<text x="475.0" y="142" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">Unit tests,</text>
+<text x="475.0" y="162" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">compilers, exact</text>
+<text x="475.0" y="182" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">answers</text>
+<rect x="365" y="245" width="220" height="125" rx="14" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+<text x="475.0" y="281" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="20" font-weight="700" fill="#111827">Low verifiability</text>
+<text x="475.0" y="307" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">Taste, strategy,</text>
+<text x="475.0" y="327" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">social context</text>
+<rect x="700" y="80" width="370" height="125" rx="14" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+<text x="885.0" y="116" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="20" font-weight="700" fill="#111827">Fast improvement</text>
+<text x="885.0" y="142" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">Reliable reward, search and</text>
+<text x="885.0" y="162" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">self-correction</text>
+<rect x="700" y="245" width="370" height="125" rx="14" fill="#ffffff" stroke="#9ca3af" stroke-width="2"/>
+<text x="885.0" y="281" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="20" font-weight="700" fill="#111827">Uneven improvement</text>
+<text x="885.0" y="307" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">Proxy metrics, human judgment</text>
+<text x="885.0" y="327" text-anchor="middle" font-family="Times New Roman, HarmonyOS Sans SC, serif" font-size="14" fill="#4b5563">and latent context</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 920 330" role="img" aria-label="AlphaGo MCTS四阶段流程图">
+              <defs><marker id="arr3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#607487"></path></marker></defs>
+              <g font-family="Microsoft YaHei">
+                <rect x="25" y="78" width="185" height="165" rx="8" fill="#edf4fa" stroke="#547da1"></rect>
+                <text x="117" y="112" text-anchor="middle" font-size="18" fill="#264d70">1. Selection</text>
+                <text x="117" y="145" text-anchor="middle" font-size="13" fill="#4c6174">最大化 Q(s,a)+u(s,a)</text>
+                <text x="117" y="174" text-anchor="middle" font-size="13" fill="#4c6174">prior 引导探索</text>
+                <text x="117" y="203" text-anchor="middle" font-size="13" fill="#4c6174">访问次数抑制重复探索</text>
+
+                <rect x="258" y="78" width="185" height="165" rx="8" fill="#edf7f2" stroke="#53806e"></rect>
+                <text x="350" y="112" text-anchor="middle" font-size="18" fill="#2e5b4a">2. Expansion</text>
+                <text x="350" y="145" text-anchor="middle" font-size="13" fill="#4f675d">满足阈值后展开节点</text>
+                <text x="350" y="174" text-anchor="middle" font-size="13" fill="#4f675d">SL policy 计算 P(s,a)</text>
+                <text x="350" y="203" text-anchor="middle" font-size="13" fill="#4f675d">异步 GPU 评价</text>
+
+                <rect x="491" y="78" width="185" height="165" rx="8" fill="#f7f1ea" stroke="#8c6b49"></rect>
+                <text x="583" y="112" text-anchor="middle" font-size="18" fill="#634a31">3. Evaluation</text>
+                <text x="583" y="145" text-anchor="middle" font-size="13" fill="#6b5a49">Value：vθ(sL)</text>
+                <text x="583" y="174" text-anchor="middle" font-size="13" fill="#6b5a49">Rollout：zL</text>
+                <text x="583" y="203" text-anchor="middle" font-size="13" fill="#6b5a49">加权形成叶节点估值</text>
+
+                <rect x="724" y="78" width="170" height="165" rx="8" fill="#f5f2f8" stroke="#7c668f"></rect>
+                <text x="809" y="112" text-anchor="middle" font-size="18" fill="#584369">4. Backup</text>
+                <text x="809" y="145" text-anchor="middle" font-size="13" fill="#675775">沿路径回传</text>
+                <text x="809" y="174" text-anchor="middle" font-size="13" fill="#675775">更新 visit count</text>
+                <text x="809" y="203" text-anchor="middle" font-size="13" fill="#675775">更新 Q(s,a)</text>
+
+                <line x1="210" y1="160" x2="258" y2="160" stroke="#607487" stroke-width="2" marker-end="url(#arr3)"></line>
+                <line x1="443" y1="160" x2="491" y2="160" stroke="#607487" stroke-width="2" marker-end="url(#arr3)"></line>
+                <line x1="676" y1="160" x2="724" y2="160" stroke="#607487" stroke-width="2" marker-end="url(#arr3)"></line>
+                <path d="M809 243 C809 295 117 295 117 243" fill="none" stroke="#607487" stroke-width="1.7" marker-end="url(#arr3)"></path>
+                <text x="455" y="316" text-anchor="middle" font-size="12.5" fill="#65717d">重复 simulations，搜索统计逐渐集中到高价值分支</text>
+              </g>
+            </svg>
