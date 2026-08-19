@@ -39,7 +39,7 @@ html[data-theme="light"] {
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; background: var(--bg); }
-body { margin: 0; min-width: 320px; background: var(--bg); color: var(--text); font-family: "Times New Roman", "Songti SC", "STSong", "SimSun", serif; font-size: 15px; line-height: 1.7; text-rendering: optimizeLegibility; }
+body { margin: 0; min-width: 320px; background: var(--bg); color: var(--text); font-family: "Times New Roman", "NSimSun", "新宋体", "HarmonyOS Sans SC", "HarmonyOS Sans", "SimHei", "黑体", "SimSun", "宋体", "STSong", serif; font-size: 15px; line-height: 1.7; text-rendering: optimizeLegibility; }
 h1, h2, h3, h4, h5, h6, .bilingual-title { font-family: "Times New Roman", "HarmonyOS Sans SC", "HarmonyOS Sans", "Microsoft YaHei", "SimHei", sans-serif; }
 a { color: inherit; text-decoration: none; }
 a:hover { color: var(--text); }
