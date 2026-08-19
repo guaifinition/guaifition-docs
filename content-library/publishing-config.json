@@ -1,0 +1,11 @@
+{
+  "articlePublishing": {
+    "requireSummaryImage": true,
+    "enforceFrom": "2026-08-19",
+    "imageModel": "gpt-image-2",
+    "imageQuality": "highest-available",
+    "imageUse": "article-cover-and-homepage-latest-card",
+    "assetRoot": "/content-assets/",
+    "promptRule": "Generate one high-resolution summary image from the article content before publishing. Prefer a clear technical or scientific visual without small text, logos, watermarks, or unsupported factual labels."
+  }
+}

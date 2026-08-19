@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T03:00:30.226Z",
+  "generatedAt": "2026-08-19T08:00:00+08:00",
   "sourcePolicy": "保留经过整理的课程与技术研究内容；排除交接文档、Skills 清单、婚礼文稿、公司业务资料、原始工作区导出与重复副本。",
   "courses": [
     {
@@ -331,7 +331,7 @@
     {
       "id": "research-notes",
       "title": "专题研究笔记",
-      "count": 8,
+      "count": 9,
       "modules": [
         "研究与实验"
       ],
@@ -343,7 +343,8 @@
         "research-notes/research-notes-grant-sanderson-ai-and-the-future-of-math-qa-notes",
         "research-notes/research-notes-loop-engineering-循环工程-讲解整理",
         "research-notes/research-notes-从-stable-diffusion-到-gpt-3-一次关于生成模型-rnn-与推理模型的技术梳理",
-        "research-notes/research-notes-gpt-现状-state-of-gpt"
+        "research-notes/research-notes-gpt-现状-state-of-gpt",
+        "research-notes/research-notes-ai-engineering-skills-map-2026-four-core-capabilities"
       ]
     },
     {
@@ -3208,6 +3209,31 @@
       "tags": [
         "技术研究",
         "中文整理"
+      ]
+    },
+    {
+      "id": "research-notes/research-notes-ai-engineering-skills-map-2026-four-core-capabilities",
+      "course": "research-notes",
+      "courseTitle": "专题研究笔记",
+      "module": "研究与实验",
+      "title": "AI Engineering Skills Map 2026：四项核心能力的技术体系、理论框架、工程实践与学习路线",
+      "summary": "本文以 2026 年 AI Engineering Skills Map 为基础，系统讨论构建与部署 AI 应用、软件工程基础、Coding Agents 与 Shaping the Build 四项能力，并将它们统一为由规格、实现、执行、评测和反馈组成的概率性系统工程闭环。",
+      "bodyFile": "content-library/research-notes-ai-engineering-skills-map-2026-four-core-capabilities.md",
+      "sourceFiles": [
+        "AI_Engineering_Skills_Map_2026_Deep_Research.md",
+        "AI_Engineering_Skills_Map_2026_OpenAI_Docs_Style.html"
+      ],
+      "type": "markdown",
+      "order": 20,
+      "publishedAt": "2026-08-19",
+      "originalUrl": "https://www.deeplearning.ai/the-batch/issue-366",
+      "coverImage": "/content-assets/research-notes/ai-engineering-skills-map-2026/ai-engineering-skills-map-2026-summary.png",
+      "coverAlt": "AI Engineering 四项能力与可靠系统闭环的技术总结图",
+      "tags": [
+        "AI Engineering",
+        "Coding Agents",
+        "Harness Engineering",
+        "技术研究"
       ]
     }
   ]

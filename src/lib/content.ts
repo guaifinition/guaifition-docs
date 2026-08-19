@@ -14,6 +14,9 @@ export type ContentRecord = {
   type: string
   order: number
   tags: string[]
+  publishedAt?: string
+  coverImage?: string
+  coverAlt?: string
   originalUrl?: string
 }
 
@@ -59,9 +62,12 @@ export function getAllRecords() {
 }
 
 export function getLatestUpdate() {
+  const datedRecords = records
+    .filter((record) => record.publishedAt)
+    .sort((a, b) => String(a.publishedAt).localeCompare(String(b.publishedAt)) || a.order - b.order)
   return {
     generatedAt,
-    record: records[records.length - 1],
+    record: datedRecords[datedRecords.length - 1] || records[records.length - 1],
   }
 }
 

@@ -1,9 +1,9 @@
 import { LargeCourseToc } from '@/components/docs/LargeCourseToc'
 import { CourseToc } from '@/components/docs/CourseToc'
 import { DocsHeader } from '@/components/docs/DocsHeader'
-import { LatestUpdateTip } from '@/components/docs/LatestUpdateTip'
+import { LatestArticleCard } from '@/components/docs/LatestArticleCard'
 import { QuickCourseGuide } from '@/components/docs/QuickCourseGuide'
-import { getAllRecords, getCourseArticleGroups, getCourseRecords, getHomepageDirectory, getLatestUpdate, getRecordAnchorId } from '@/lib/content'
+import { getAllRecords, getCourseArticleGroups, getCourseRecords, getHomepageDirectory, getLatestUpdate } from '@/lib/content'
 
 export default function HomePage() {
   const { collections, agentic, learningAi, supplement } = getHomepageDirectory()
@@ -33,12 +33,15 @@ export default function HomePage() {
             <div><dt>文章</dt><dd>{records.length}</dd></div>
             <div><dt>内容层</dt><dd>Markdown</dd></div>
           </dl>
-          <LatestUpdateTip
+          <LatestArticleCard
             updatedAt={latestUpdatedAt}
             article={latestUpdate.record ? {
               title: latestUpdate.record.title,
+              summary: latestUpdate.record.summary,
               detail: `${latestUpdate.record.courseTitle} · ${latestUpdate.record.module}`,
-              targetId: getRecordAnchorId(latestUpdate.record),
+              href: `/courses/${latestUpdate.record.course}/${latestUpdate.record.id.split('/')[1]}`,
+              coverImage: latestUpdate.record.coverImage,
+              coverAlt: latestUpdate.record.coverAlt,
             } : undefined}
           />
           <QuickCourseGuide items={guideItems} />

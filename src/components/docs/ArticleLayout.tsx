@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 import { DocsHeader } from './DocsHeader'
 import { ArticleSidebar } from './ArticleSidebar'
@@ -22,7 +23,22 @@ export function ArticleLayout({ record, source }: { record: ContentRecord; sourc
           <div className="article-meta">
             <span>{record.tags.slice(0, 4).join(' · ')}</span>
             <span>知识库文章</span>
+            {record.originalUrl && (
+              <a className="article-source-link" href={record.originalUrl} target="_blank" rel="noreferrer">
+                原文来源 · DeepLearning.AI / The Batch Issue 366
+              </a>
+            )}
           </div>
+          {record.coverImage && (
+            <figure className="article-cover">
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${record.coverImage}`}
+                alt={record.coverAlt || record.title}
+                loading="eager"
+                decoding="async"
+              />
+            </figure>
+          )}
           <MarkdownArticle source={source} />
           <nav className="article-pager" aria-label="文章导航">
             {previous ? <Link href={`/courses/${previous.course}/${previous.id.split('/')[1]}`}>← {previous.title}</Link> : <span />}
