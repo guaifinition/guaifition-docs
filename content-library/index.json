@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:00:00+08:00",
+  "generatedAt": "2026-08-22T02:38:03.933Z",
   "sourcePolicy": "保留经过整理的课程与技术研究内容；排除交接文档、Skills 清单、婚礼文稿、公司业务资料、原始工作区导出与重复副本。",
   "courses": [
     {
@@ -61,7 +61,7 @@
     {
       "id": "tech-series",
       "title": "Agent 系统与 LLM 基础设施",
-      "count": 11,
+      "count": 12,
       "modules": [
         "技术研究报告",
         "系列总览"
@@ -77,7 +77,8 @@
         "tech-series/tech-series-详解-kimi-k3-冲击前沿的开放权重模型",
         "tech-series/tech-series-大语言模型训练资源需求分析",
         "tech-series/tech-series-pi-agent-runtime",
-        "tech-series/tech-series-prompting-101-与-claude-一起构建提示词"
+        "tech-series/tech-series-prompting-101-与-claude-一起构建提示词",
+        "tech-series/tech-series-大语言模型智能体记忆系统架构剖析与技术设计"
       ]
     },
     {
@@ -3233,6 +3234,33 @@
         "AI Engineering",
         "Coding Agents",
         "Harness Engineering",
+        "技术研究"
+      ]
+    },
+    {
+      "id": "tech-series/tech-series-大语言模型智能体记忆系统架构剖析与技术设计",
+      "course": "tech-series",
+      "courseTitle": "Agent 系统与 LLM 基础设施",
+      "module": "技术研究报告",
+      "title": "大语言模型智能体记忆系统架构剖析与技术设计",
+      "summary": "基于 Hugging Face 官方深度技术讲解视频，对开源记忆框架 Mem0 进行解剖，系统阐述工业级 Agent 长期记忆系统的三层混合存储架构、记忆摄入与检索两条核心流水线，并详细解析结合向量相似度、BM25 词形重叠及实体加权的混合重排算法与全链路开源离线选型方案。",
+      "bodyFile": "content-library/tech-series-大语言模型智能体记忆系统架构剖析与技术设计.md",
+      "sourceFiles": [
+        "Agent_Memory_EXPLAINED_Complete_Architecture.md",
+        "Agent_Memory_System_Architecture_Report.pdf"
+      ],
+      "type": "markdown",
+      "order": 12,
+      "publishedAt": "2026-08-22",
+      "originalUrl": "https://www.youtube.com/watch?v=aYfZN8t6AQs",
+      "coverImage": "/content-assets/tech-series/agent-memory-system-architecture/agent-memory-architecture-summary.svg",
+      "coverAlt": "大语言模型智能体长期记忆三层存储与混合重排架构总结图",
+      "tags": [
+        "Agent Memory",
+        "Mem0",
+        "Long-Term Memory",
+        "Hybrid Reranking",
+        "Hugging Face",
         "技术研究"
       ]
     }

@@ -25,7 +25,11 @@ export function ArticleLayout({ record, source }: { record: ContentRecord; sourc
             <span>知识库文章</span>
             {record.originalUrl && (
               <a className="article-source-link" href={record.originalUrl} target="_blank" rel="noreferrer">
-                原文来源 · DeepLearning.AI / The Batch Issue 366
+                {record.originalUrl.includes('youtube.com') || record.originalUrl.includes('youtu.be')
+                  ? '原视频链接 · YouTube'
+                  : record.originalUrl.includes('deeplearning.ai')
+                  ? '原文来源 · DeepLearning.AI'
+                  : '查看原文来源'}
               </a>
             )}
           </div>
