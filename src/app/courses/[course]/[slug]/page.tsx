@@ -3,10 +3,16 @@ import { ArticleLayout } from '@/components/docs/ArticleLayout'
 import { getAllRecords, getBody, getRecord } from '@/lib/content'
 
 export function generateStaticParams() {
-  return getAllRecords().map((record) => ({
-    course: record.course,
-    slug: record.id.split('/')[1],
-  }))
+  const params: { course: string; slug: string }[] = []
+  for (const record of getAllRecords()) {
+    const slug = record.id.split('/')[1]
+    params.push({ course: record.course, slug })
+    const encoded = encodeURIComponent(slug)
+    if (encoded !== slug) {
+      params.push({ course: record.course, slug: encoded })
+    }
+  }
+  return params
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ course: string; slug: string }> }) {
