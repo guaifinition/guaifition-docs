@@ -97,8 +97,8 @@ bash scripts/sync-agent-rules.sh
 当前电脑的 Codex Skills 位于用户目录，例如：
 
 ~~~
-C:\Users\chengji219707\.codex\skills\openai-html-theme\SKILL.md
-C:\Users\chengji219707\.codex\plugins\cache\...
+~/.codex/skills/openai-html-theme/SKILL.md
+~/.codex/plugins/cache/...
 ~~~
 
 这些是 Codex 的机器级配置，不在 GitHub 仓库内，也不应复制其中的登录凭据。另一台电脑若使用 Codex，可重新安装或配置：

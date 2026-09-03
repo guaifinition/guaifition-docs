@@ -14,10 +14,10 @@
 当前已确认存在：
 
 ~~~
-C:\Users\chengji219707\odin\git-web\agentic-ai-blog
-C:\Users\chengji219707\odin\git-web\mcts-blog
-C:\Users\chengji219707\odin\git-web\tech-series
-C:\Users\chengji219707\Downloads\AI课程_论文式HTML知识库_13门88讲\AI课程_论文式HTML知识库
+<workspace>/agentic-ai-blog
+<workspace>/mcts-blog
+<workspace>/tech-series
+<downloads>/AI课程_论文式HTML知识库_13门88讲\AI课程_论文式HTML知识库
 ~~~
 
 它们大致对应：
@@ -32,11 +32,11 @@ C:\Users\chengji219707\Downloads\AI课程_论文式HTML知识库_13门88讲\AI�
 索引中的部分 sourceFiles 指向旧的 Documents 目录，但这些目录在当前电脑上并不完整，例如：
 
 ~~~
-C:\Users\chengji219707\Documents\md
-C:\Users\chengji219707\Documents\anthropic-ai-field-notes
-C:\Users\chengji219707\Documents\x-waterloo-intern 2
-C:\Users\chengji219707\Documents\grok-build-analysis.html
-C:\Users\chengji219707\Documents\xwechat_files
+<documents>/md
+<documents>/anthropic-ai-field-notes
+<documents>/x-waterloo-intern 2
+<documents>/grok-build-analysis.html
+<documents>/xwechat_files
 ~~~
 
 这些路径是历史来源记录，不代表网站运行时还会读取它们。content-library/ 中的最终 Markdown 和 public/content-assets/ 中的最终资源已经是当前发布版本的实际内容。
@@ -70,7 +70,7 @@ D:\guaifinition-content-sources\
 └─ AI课程_论文式HTML知识库\
 ~~~
 
-随后检查 scripts/import-content.mjs 中的源目录配置和排除规则，按新电脑路径调整，不要直接假定旧电脑的 C:\Users\chengji219707\... 路径仍然存在。
+随后检查 scripts/import-content.mjs 中的源目录配置和排除规则，按新电脑路径调整，不要直接假定旧电脑的本地绝对路径仍然存在。
 
 执行导入前建议：
 

@@ -1,20 +1,38 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 import { DocsHeader } from './DocsHeader'
-import { ArticleSidebar } from './ArticleSidebar'
+import { CourseSidebar } from './CourseSidebar'
+import { ArticleToc } from './ArticleToc'
 import { MarkdownArticle } from './MarkdownArticle'
 import { TitleWithEnglish } from './TitleWithEnglish'
-import { extractHeadings, getPrevNext, type ContentRecord } from '@/lib/content'
+import {
+  extractHeadings,
+  getPrevNext,
+  getCourse,
+  getCourseRecords,
+  getCourseArticleGroups,
+  type ContentRecord,
+} from '@/lib/content'
 
 export function ArticleLayout({ record, source }: { record: ContentRecord; source: string }) {
   const headings = extractHeadings(source)
   const { previous, next } = getPrevNext(record)
+  const courseMeta = getCourse(record.course)
+  const courseArticles = getCourseRecords(record.course)
+  const courseGroups = getCourseArticleGroups(record.course)
 
   return (
     <div id="top" className="docs-site">
       <DocsHeader course={record.course} courseTitle={record.courseTitle} />
       <div className="article-layout">
-        <ArticleSidebar course={record.course} headings={headings} />
+        {courseMeta && (
+          <CourseSidebar
+            course={courseMeta}
+            articles={courseArticles}
+            groups={courseGroups}
+            currentArticleId={record.id}
+          />
+        )}
 
         <main className="article-main">
           <div className="article-kicker">{record.courseTitle} / {record.module}</div>
@@ -50,6 +68,8 @@ export function ArticleLayout({ record, source }: { record: ContentRecord; sourc
             {next ? <Link href={`/courses/${next.course}/${next.id.split('/')[1]}`}>{next.title} →</Link> : <span />}
           </nav>
         </main>
+
+        <ArticleToc headings={headings} />
       </div>
     </div>
   )

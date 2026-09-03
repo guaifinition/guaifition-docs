@@ -8,7 +8,7 @@ export function generateStaticParams() {
     const slug = record.id.split('/')[1]
     params.push({ course: record.course, slug })
     const encoded = encodeURIComponent(slug)
-    if (encoded !== slug) {
+    if (encoded !== slug && encoded.length < 150) {
       params.push({ course: record.course, slug: encoded })
     }
   }

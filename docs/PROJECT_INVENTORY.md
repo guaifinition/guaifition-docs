@@ -5,7 +5,7 @@
 当前本地仓库是统一后的 Guaifinition Docs 网站项目：
 
 ~~~
-C:\Users\chengji219707\odin\git-web\ai-website-cloner-template
+<workspace>/guaifition-docs
 ~~~
 
 GitHub 远程仓库：
@@ -94,10 +94,10 @@ ai-website-cloner-template/
 这些目录位于 Git 仓库外，主要供 npm run content:import 重新导入原始资料使用：
 
 ~~~
-C:\Users\chengji219707\odin\git-web\agentic-ai-blog
-C:\Users\chengji219707\odin\git-web\mcts-blog
-C:\Users\chengji219707\odin\git-web\tech-series
-C:\Users\chengji219707\Downloads\AI课程_论文式HTML知识库_13门88讲\AI课程_论文式HTML知识库
+<workspace>/agentic-ai-blog
+<workspace>/mcts-blog
+<workspace>/tech-series
+<downloads>/AI课程_论文式HTML知识库_13门88讲\AI课程_论文式HTML知识库
 ~~~
 
 当前这些目录仍可找到。另一个旧的技术文档仓库 tech-series-source 没有保留本地克隆，也已经不作为当前项目依赖。
@@ -105,11 +105,11 @@ C:\Users\chengji219707\Downloads\AI课程_论文式HTML知识库_13门88讲\AI�
 索引中还留有一些历史来源记录，指向当前电脑 Documents 下曾经存在、但现在并不完整的目录，例如：
 
 ~~~
-C:\Users\chengji219707\Documents\md
-C:\Users\chengji219707\Documents\anthropic-ai-field-notes
-C:\Users\chengji219707\Documents\x-waterloo-intern 2
-C:\Users\chengji219707\Documents\grok-build-analysis.html
-C:\Users\chengji219707\Documents\xwechat_files
+<documents>/md
+<documents>/anthropic-ai-field-notes
+<documents>/x-waterloo-intern 2
+<documents>/grok-build-analysis.html
+<documents>/xwechat_files
 ~~~
 
 这些历史目录不是现有网站正常构建的必要条件。由于部分原始文件已经不在当前电脑上，不能把 npm run content:import 视为完全可复现的迁移步骤，详见外部内容源迁移说明。

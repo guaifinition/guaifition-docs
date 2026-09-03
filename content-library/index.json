@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T02:38:03.933Z",
+  "generatedAt": "2026-09-03T03:09:28.581Z",
   "sourcePolicy": "保留经过整理的课程与技术研究内容；排除交接文档、Skills 清单、婚礼文稿、公司业务资料、原始工作区导出与重复副本。",
   "courses": [
     {
@@ -357,6 +357,53 @@
       ],
       "items": [
         "model-evolution/model-evolution-22580-从-gpt2-到-kimi3-的演进"
+      ]
+    },
+    {
+      "id": "aaai-2025",
+      "title": "AAAI 2025 人工智能研究的未来",
+      "count": 21,
+      "modules": [
+        "序言与报告概览",
+        "第一部分：核心能力与基础理论",
+        "第二部分：系统架构与物理结合",
+        "第三部分：交叉学科与社会影响",
+        "第四部分：研究范式、生态与治理",
+        "附录与机构背景"
+      ],
+      "items": [
+        "aaai-2025/aaai-2025-00-封面与目录",
+        "aaai-2025/aaai-2025-01-引言",
+        "aaai-2025/aaai-2025-02-专题小组成员与其他贡献者",
+        "aaai-2025/aaai-2025-03-ai-推理",
+        "aaai-2025/aaai-2025-04-ai-事实性与可信性",
+        "aaai-2025/aaai-2025-05-ai-智能体",
+        "aaai-2025/aaai-2025-06-ai-评估",
+        "aaai-2025/aaai-2025-09-ai-与认知科学",
+        "aaai-2025/aaai-2025-14-通用人工智能-agi",
+        "aaai-2025/aaai-2025-08-具身人工智能",
+        "aaai-2025/aaai-2025-10-硬件与-ai",
+        "aaai-2025/aaai-2025-07-ai-伦理与安全",
+        "aaai-2025/aaai-2025-11-ai-促进社会公益",
+        "aaai-2025/aaai-2025-12-ai-与可持续发展",
+        "aaai-2025/aaai-2025-13-ai-促进科学发现",
+        "aaai-2025/aaai-2025-15-ai-的公众认知与现实",
+        "aaai-2025/aaai-2025-16-ai-研究方法的多样性",
+        "aaai-2025/aaai-2025-17-超越-ai-研究社区的研究",
+        "aaai-2025/aaai-2025-18-学术界的角色",
+        "aaai-2025/aaai-2025-19-ai-的地缘政治层面与影响",
+        "aaai-2025/aaai-2025-20-关于-aaai"
+      ]
+    },
+    {
+      "id": "the-transformers",
+      "title": "The Transformers — 架构解析与从零构建 BERT",
+      "count": 1,
+      "modules": [
+        "架构剖析与工程实战"
+      ],
+      "items": [
+        "the-transformers/the-transformers-the-transformers-架构深度解析与从零构建-bert"
       ]
     }
   ],
@@ -3263,6 +3310,471 @@
         "Hugging Face",
         "技术研究"
       ]
+    },
+    {
+      "id": "aaai-2025/aaai-2025-00-封面与目录",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "序言与报告概览",
+      "title": "封面与目录",
+      "summary": "AAAI 2025 主席专题小组《人工智能研究的未来》报告目录及各章节导览。",
+      "bodyFile": "content-library/aaai-2025-00-封面与目录.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/00_封面与目录.md"
+      ],
+      "type": "markdown",
+      "order": 1,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-01-引言",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "序言与报告概览",
+      "title": "引言",
+      "summary": "随着 AI 能力迅速演进，AI 研究本身也正在多个维度经历快速而重大的转型，包括研究主题、研究方法、研究社区以及工作环境。AI 推理和智能体式 AI 等主题已经研究了数十年，但鉴于当前 AI 的能力与局限，它们的研究范围如今显著扩大。AI 伦理与安全、AI 促进社会公益以及可持续 AI，也已成为所有主要 AI 会议的核心主题。",
+      "bodyFile": "content-library/aaai-2025-01-引言.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/01_引言.md"
+      ],
+      "type": "markdown",
+      "order": 2,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-02-专题小组成员与其他贡献者",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "序言与报告概览",
+      "title": "专题小组成员与其他贡献者",
+      "summary": "AAAI 2025 主席专题小组成员、受邀贡献者及调研组织者名单。",
+      "bodyFile": "content-library/aaai-2025-02-专题小组成员与其他贡献者.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/02_专题小组成员与其他贡献者.md"
+      ],
+      "type": "markdown",
+      "order": 3,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-03-ai-推理",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第一部分：核心能力与基础理论",
+      "title": "AI 推理",
+      "summary": "推理能力一直是人类智能的显著特征之一，而 AI 系统迫切需要具备可验证的推理能力。",
+      "bodyFile": "content-library/aaai-2025-03-ai-推理.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/03_AI推理.md"
+      ],
+      "type": "markdown",
+      "order": 4,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-04-ai-事实性与可信性",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第一部分：核心能力与基础理论",
+      "title": "AI 事实性与可信性",
+      "summary": "提高 AI 系统的事实性和可信性，是当今 AI 研究中规模最大的主题之一。尽管已经取得显著进展，大多数科学家仍对这些问题能否在近期得到解决持悲观态度。",
+      "bodyFile": "content-library/aaai-2025-04-ai-事实性与可信性.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/04_AI事实性与可信性.md"
+      ],
+      "type": "markdown",
+      "order": 5,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-05-ai-智能体",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第一部分：核心能力与基础理论",
+      "title": "AI 智能体",
+      "summary": "智能体和多智能体系统（MAS）已经从自主问题求解实体演化到与生成式 AI 和 LLM 融合，并进一步迈向合作式 AI 框架，以提高适应性、可扩展性和协作能力。",
+      "bodyFile": "content-library/aaai-2025-05-ai-智能体.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/05_AI智能体.md"
+      ],
+      "type": "markdown",
+      "order": 6,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-06-ai-评估",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第一部分：核心能力与基础理论",
+      "title": "AI 评估",
+      "summary": "AI 评估是对 AI 系统的性能、可靠性和安全性进行评价的过程。",
+      "bodyFile": "content-library/aaai-2025-06-ai-评估.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/06_AI评估.md"
+      ],
+      "type": "markdown",
+      "order": 7,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-09-ai-与认知科学",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第一部分：核心能力与基础理论",
+      "title": "AI 与认知科学",
+      "summary": "AI 可以从认知科学的其他领域中学到很多，同时也能够反过来为这些领域做出重要贡献。",
+      "bodyFile": "content-library/aaai-2025-09-ai-与认知科学.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/09_AI与认知科学.md"
+      ],
+      "type": "markdown",
+      "order": 8,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-14-通用人工智能-agi",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第一部分：核心能力与基础理论",
+      "title": "通用人工智能（AGI）",
+      "summary": "AI 领域长期追求通用、接近人类水平的能力。近年来神经网络模型展现出更一般化的能力，使 AGI 的发展方向、成功后的影响以及是否应追求这一目标再次成为核心讨论。",
+      "bodyFile": "content-library/aaai-2025-14-通用人工智能-agi.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/14_通用人工智能_AGI.md"
+      ],
+      "type": "markdown",
+      "order": 9,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-08-具身人工智能",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第二部分：系统架构与物理结合",
+      "title": "具身人工智能",
+      "summary": "具身人工智能（Embodied AI, EAI）旨在创造能够感知、理解并与物理世界互动的智能体。",
+      "bodyFile": "content-library/aaai-2025-08-具身人工智能.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/08_具身人工智能.md"
+      ],
+      "type": "markdown",
+      "order": 10,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-10-硬件与-ai",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第二部分：系统架构与物理结合",
+      "title": "硬件与 AI",
+      "summary": "人工智能的软硬件架构协同设计，是指专门设计能够高效配合的软件与硬件组件，以最大化 AI 系统的性能与能源效率。",
+      "bodyFile": "content-library/aaai-2025-10-硬件与-ai.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/10_硬件与AI.md"
+      ],
+      "type": "markdown",
+      "order": 11,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-07-ai-伦理与安全",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第三部分：交叉学科与社会影响",
+      "title": "AI 伦理与安全",
+      "summary": "AI 的伦理与安全挑战要求采用统一方法，因为短期与长期风险正日益相互交织。",
+      "bodyFile": "content-library/aaai-2025-07-ai-伦理与安全.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/07_AI伦理与安全.md"
+      ],
+      "type": "markdown",
+      "order": 12,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-11-ai-促进社会公益",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第三部分：交叉学科与社会影响",
+      "title": "AI 促进社会公益",
+      "summary": "“AI 促进社会公益”（AI for Social Good，AI4SG/AI4SI）是 AI 研究中的一个子领域，其主要目标是产生可测量的社会影响，特别关注弱势和资源不足群体，并重点解决历史上缺乏足够 AI 研发投入的问题。",
+      "bodyFile": "content-library/aaai-2025-11-ai-促进社会公益.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/11_AI促进社会公益.md"
+      ],
+      "type": "markdown",
+      "order": 13,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-12-ai-与可持续发展",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第三部分：交叉学科与社会影响",
+      "title": "AI 与可持续发展",
+      "summary": "AI 正在快速改变产业，并具有推动可持续发展进展的巨大潜力，包括加速净零能源转型、增强气候韧性等。但 AI 部署也会增加能源和水资源需求。要确保 AI 推进而不是加剧环境风险，需要主动塑造其研发、运行和应用方式。",
+      "bodyFile": "content-library/aaai-2025-12-ai-与可持续发展.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/12_AI与可持续发展.md"
+      ],
+      "type": "markdown",
+      "order": 14,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-13-ai-促进科学发现",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第三部分：交叉学科与社会影响",
+      "title": "AI 促进科学发现",
+      "summary": "AI 正在通过加速从知识提取、假设生成，到实验自动化和验证的整个研究周期，以前所未有的速度改变科学发现。",
+      "bodyFile": "content-library/aaai-2025-13-ai-促进科学发现.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/13_AI促进科学发现.md"
+      ],
+      "type": "markdown",
+      "order": 15,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-15-ai-的公众认知与现实",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第三部分：交叉学科与社会影响",
+      "title": "AI 的公众认知与现实",
+      "summary": "本章讨论：应如何挑战对 AI 能力的夸大陈述，并建立更现实的预期。",
+      "bodyFile": "content-library/aaai-2025-15-ai-的公众认知与现实.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/15_AI的公众认知与现实.md"
+      ],
+      "type": "markdown",
+      "order": 16,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-16-ai-研究方法的多样性",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第四部分：研究范式、生态与治理",
+      "title": "AI 研究方法的多样性",
+      "summary": "AI 研究应鼓励和支持多种新旧范式。这不仅包括神经网络之外的不同方法，也包括跨学科合作和社会影响研究。",
+      "bodyFile": "content-library/aaai-2025-16-ai-研究方法的多样性.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/16_AI研究方法的多样性.md"
+      ],
+      "type": "markdown",
+      "order": 17,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-17-超越-ai-研究社区的研究",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第四部分：研究范式、生态与治理",
+      "title": "超越 AI 研究社区的研究",
+      "summary": "AI 研究需要吸纳核心 AI 社区之外的不同视角和专业知识。",
+      "bodyFile": "content-library/aaai-2025-17-超越-ai-研究社区的研究.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/17_超越AI研究社区的研究.md"
+      ],
+      "type": "markdown",
+      "order": 18,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-18-学术界的角色",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第四部分：研究范式、生态与治理",
+      "title": "学术界的角色",
+      "summary": "最先进 AI 研究如今很大程度上由私营部门推动，大学越来越难以竞争。学术界必须在“Big AI”时代重新确定自己的角色。",
+      "bodyFile": "content-library/aaai-2025-18-学术界的角色.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/18_学术界的角色.md"
+      ],
+      "type": "markdown",
+      "order": 19,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-19-ai-的地缘政治层面与影响",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "第四部分：研究范式、生态与治理",
+      "title": "AI 的地缘政治层面与影响",
+      "summary": "AI 的崛起正在重塑全球力量关系和国家投资优先级，并影响经济、安全和治理结构，同时带来公平与控制方面的新挑战。",
+      "bodyFile": "content-library/aaai-2025-19-ai-的地缘政治层面与影响.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/19_AI的地缘政治层面与影响.md"
+      ],
+      "type": "markdown",
+      "order": 20,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "aaai-2025/aaai-2025-20-关于-aaai",
+      "course": "aaai-2025",
+      "courseTitle": "AAAI 2025 人工智能研究的未来",
+      "module": "附录与机构背景",
+      "title": "关于 AAAI",
+      "summary": "人工智能促进协会（Association for the Advancement of Artificial Intelligence，AAAI）成立于 1979 年，原名 American Association for Artificial Intelligence。",
+      "bodyFile": "content-library/aaai-2025-20-关于-aaai.md",
+      "sourceFiles": [
+        "Downloads/AAAI_2025_Future_of_AI_Research_逐章简体中文_MD/20_关于AAAI.md"
+      ],
+      "type": "markdown",
+      "order": 21,
+      "tags": [
+        "AAAI 2025",
+        "AI 未来",
+        "战略报告",
+        "前沿研究"
+      ],
+      "originalUrl": "https://aaai.org/"
+    },
+    {
+      "id": "the-transformers/the-transformers-the-transformers-架构深度解析与从零构建-bert",
+      "course": "the-transformers",
+      "courseTitle": "The Transformers — 架构解析与从零构建 BERT",
+      "module": "架构剖析与工程实战",
+      "title": "The Transformers：架构深度解析与从零构建 BERT",
+      "summary": "Transformer 架构的完整原理解析与自注意力机制详解，深入剖析输入嵌入与位置编码，并提供从零手写 BERT 代码的分步工程实战指南（Vizuara AI 实验室）。",
+      "bodyFile": "content-library/the-transformers-the-transformers-架构深度解析与从零构建-bert.md",
+      "sourceFiles": [
+        "Downloads/The Transformers - 简体中文版 (Vizuara AI Labs).html"
+      ],
+      "type": "html",
+      "order": 1,
+      "tags": [
+        "Transformer",
+        "BERT",
+        "自注意力机制",
+        "架构实战"
+      ],
+      "publishedAt": "2026-09-03",
+      "coverImage": "/content-assets/the-transformers/the-transformers-the-transformers-架构深度解析与从零构建-bert/cover.webp",
+      "coverAlt": "The Transformers 完整架构与 BERT 构建实战封面",
+      "originalUrl": "https://www.vizuaranewsletter.com/p/the-transformers"
     }
   ]
 }
